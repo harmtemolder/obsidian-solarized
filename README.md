@@ -1,5 +1,5 @@
 # obsidian-solarized
-This is just a recolor based on the [solarized color scheme](https://ethanschoonover.com/solarized/).
+This is just a recolor based on the [solarized color scheme](https://ethanschoonover.com/solarized/). Works as of Obsidian 0.5.3
 
 ![Light](./light.png)
 
