@@ -105,3 +105,7 @@ blockquote, .markdown-embed {
 .search-result-file-matched-text {
     color: var(--text-highlight-fg);
 }
+
+.suggestion-item.is-selected {
+    background-color: var(--background-secondary-alt);
+}
