@@ -81,10 +81,14 @@ h1, h2, h3, h4, h5, h6, .markdown-preview-view h6{
     color: var(--text-faint) !important;
 }
 
-.cm-inline-code ,
+.CodeMirror span.cm-inline-code,
+.CodeMirror span.cm-math,
 pre > code:not(.prism) {
-    color: var(--text-code) !important;
-    background-color: var(--background-secondary-alt) !important;
+    color: var(--text-code);
+}
+
+.CodeMirror span.cm-formatting-math {
+    color: var(--text-highlight-fg);
 }
 
 pre.HyperMD-codeblock {
