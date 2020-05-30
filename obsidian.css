@@ -35,7 +35,7 @@
     --background-modifier-form-field: var(--base02);
     --interactive-normal: var(--red);
     --interactive-accent: var(--orange);
-    --interactive-accent-hover: var(--orange);
+    --interactive-accent-hover: var(--cyan);
     --interactive-accent-rgb: var(--green);
     --vim-cursor: var(--green);
     --text-border: var(--yellow);
@@ -61,7 +61,7 @@
     --background-modifier-form-field: var(--base2);
     --interactive-normal: var(--base3);
     --interactive-accent: var(--orange);
-    --interactive-accent-hover: var(--orange);
+    --interactive-accent-hover: var(--cyan);
     --interactive-accent-rgb: var(--green);
     --text-on-accent: var(--base3);
     --vim-cursor: var(--green);
