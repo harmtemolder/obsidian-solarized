@@ -109,3 +109,28 @@ blockquote, .markdown-embed {
 .suggestion-item.is-selected {
     background-color: var(--background-secondary-alt);
 }
+
+/* Tags */
+.cm-s-obsidian span.cm-hashtag-begin,
+.cm-s-obsidian span.cm-hashtag-end,
+a.tag {
+    background-color: var(--text-normal);
+    color: var(--background-primary);
+    padding: 5px;
+    text-decoration: none;
+}
+
+a.tag {
+    border-radius: 10px;
+}
+
+.cm-s-obsidian span.cm-hashtag-begin {
+    border-radius: 10px 0px 0px 10px;
+    font-family: inherit;
+    padding-right: 0px;
+}
+
+.cm-s-obsidian span.cm-hashtag-end {
+    border-radius: 0px 10px 10px 0px;
+    padding-left: 0px;
+}
