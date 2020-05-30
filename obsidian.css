@@ -39,7 +39,8 @@
     --interactive-accent-rgb: var(--green);
     --vim-cursor: var(--green);
     --text-border: var(--yellow);
-
+    --search-match-highlight-fg: var(--red);
+    --search-match-highlight-bg: var(--base3);
 }
 
 .theme-light {
@@ -66,7 +67,8 @@
     --text-on-accent: var(--base3);
     --vim-cursor: var(--green);
     --text-border: var(--yellow);
-
+    --search-match-highlight-fg: var(--base3);
+    --search-match-highlight-bg: var(--red);
 }
 
 .cm-header {
@@ -135,4 +137,9 @@ a.tag {
 .cm-s-obsidian span.cm-hashtag-end {
     border-radius: 0px 10px 10px 0px;
     padding-left: 0px;
+}
+
+.obsidian-search-match-highlight {
+    color: var(--search-match-highlight-fg);
+    background-color: var(--search-match-highlight-bg);
 }
