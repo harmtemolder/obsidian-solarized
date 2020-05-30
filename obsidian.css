@@ -69,6 +69,11 @@
 
 }
 
+.markdown-source-view { 
+    font-family: 'JetBrains Mono', 'Hack', 'Fira Code', 'Cascadia Code', 'Consolas', 'Courier New', monospace; 
+    font-size: 18px;
+}
+
 .cm-header {
     color: var(--text-title);
 }
