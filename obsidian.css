@@ -100,10 +100,6 @@ pre.HyperMD-codeblock {
     color: var(--text-highlight-fg) !important;
 }
 
-.cm-hashtag {
-    color: var(--text-accent) !important;
-}
-
 blockquote, .markdown-embed {
     border-color: var(--text-border) !important;
 }
