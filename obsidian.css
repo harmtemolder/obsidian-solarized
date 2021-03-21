@@ -159,12 +159,8 @@ blockquote, .markdown-embed {
 a.tag {
     background-color: var(--text-normal);
     color: var(--background-primary);
-    padding: 5px;
+    padding: 2px;
     text-decoration: none;
-}
-
-a.tag {
-    border-radius: 10px;
 }
 
 .cm-s-obsidian span.cm-hashtag-begin {
