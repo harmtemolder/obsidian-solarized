@@ -13,6 +13,7 @@
     --orange:     #cb4b16;
     --orange-rgb: 203, 75, 22;
     --red:        #dc322f;
+    --red-rgb:    220, 50 , 47;
     --magenta:    #d33682;
     --violet:     #6c71c4;
     --blue:       #268bd2;
@@ -23,10 +24,10 @@
 .theme-dark {
     --background-modifier-border: var(--base01);
     /* --background-modifier-box-shadow: rgba(0, 0, 0, 0.3);
-    --background-modifier-cover: rgba(0, 0, 0, 0.8);
-    --background-modifier-error-hover: #470000;
-    --background-modifier-error-rgb: 61, 0, 0;
-    --background-modifier-error: #3d0000; */
+    --background-modifier-cover: rgba(0, 0, 0, 0.8); */
+    --background-modifier-error-hover: var(--text-error);
+    --background-modifier-error-rgb: var(--red-rgb);
+    --background-modifier-error: var(--text-error);
     --background-modifier-form-field-highlighted: var(--base3);
     --background-modifier-form-field: var(--base02);
     --background-modifier-success: var(--green);
@@ -69,10 +70,10 @@
 .theme-light {
     --background-modifier-border: var(--base1);
     /* --background-modifier-box-shadow: rgba(0, 0, 0, 0.3);
-    --background-modifier-cover: rgba(0, 0, 0, 0.8);
-    --background-modifier-error-hover: #470000;
-    --background-modifier-error-rgb: 61, 0, 0;
-    --background-modifier-error: #3d0000; */
+    --background-modifier-cover: rgba(0, 0, 0, 0.8); */
+    --background-modifier-error-hover: var(--text-error);
+    --background-modifier-error-rgb: var(--red-rgb);
+    --background-modifier-error: var(--text-error);
     --background-modifier-form-field-highlighted: var(--base3);
     --background-modifier-form-field: var(--base2);
     --background-modifier-success: var(--green);
