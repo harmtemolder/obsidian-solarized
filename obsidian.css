@@ -11,6 +11,7 @@
     --base3:      #fdf6e3;
     --yellow:     #b58900;
     --orange:     #cb4b16;
+    --orange-rgb: 203, 75, 22;
     --red:        #dc322f;
     --magenta:    #d33682;
     --violet:     #6c71c4;
@@ -35,7 +36,7 @@
     --background-secondary: var(--base03);
     --highlight-mix-blend-mode: lighten;
     --interactive-accent-hover: var(--cyan);
-    --interactive-accent-rgb: var(--green);
+    --interactive-accent-rgb: var(--orange-rgb);
     --interactive-accent: var(--orange);
     --interactive-hover: var(--interactive-normal);
     --interactive-normal: var(--base03);
@@ -81,7 +82,7 @@
     --background-secondary: var(--base3);
     --highlight-mix-blend-mode: lighten;
     --interactive-accent-hover: var(--cyan);
-    --interactive-accent-rgb: var(--green);
+    --interactive-accent-rgb: var(--orange-rgb);
     --interactive-accent: var(--orange);
     --interactive-hover: var(--interactive-normal);
     --interactive-normal: var(--base3);
