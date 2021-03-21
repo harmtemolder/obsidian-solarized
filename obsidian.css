@@ -18,55 +18,56 @@
 }
 
 .theme-dark {
-    --background-primary: var(--base03);
-    --background-primary-alt: var(--base02);
-    --background-secondary: var(--base03);
-    --background-secondary-alt: var(--base02);
-    --text-normal: var(--base00);
-    --text-faint: var(--base01);
-    --text-muted: var(--base0);
-    --text-error: var(--red);
-    --text-accent: var(--violet);
-    --text-title: var(--cyan);
-    --text-code: var(--magenta);
-    --text-highlight-fg: var(--blue);
-    --text-highlight-bg: var(--base02);
     --background-modifier-border: var(--base01);
     --background-modifier-form-field: var(--base02);
-    --interactive-normal: var(--red);
-    --interactive-accent: var(--orange);
+    --background-primary-alt: var(--base02);
+    --background-primary: var(--base03);
+    --background-secondary-alt: var(--base02);
+    --background-secondary: var(--base03);
     --interactive-accent-hover: var(--cyan);
     --interactive-accent-rgb: var(--green);
-    --vim-cursor: var(--green);
+    --interactive-accent: var(--orange);
+    --interactive-normal: var(--red);
+    --pre-code: var(--base0);
+    --text-accent: var(--violet);
     --text-border: var(--yellow);
+    --text-code: var(--magenta);
+    --text-error: var(--red);
+    --text-faint: var(--base01);
+    --text-highlight-bg: var(--base02);
+    --text-highlight-fg: var(--blue);
+    --text-muted: var(--base00);
+    --text-normal: var(--base0);
+    --text-on-accent: var(--base03);
+    --text-title: var(--cyan);
+    --vim-cursor: var(--green);
 
 }
 
 .theme-light {
-    --background-primary: var(--base3);
-    --background-primary-alt: var(--base2);
-    --background-secondary: var(--base3);
-    --background-secondary-alt: var(--base2);
-    --text-normal: var(--base00);
-    --text-faint: var(--base1);
-    --text-muted: var(--base0);
-    --text-error: var(--red);
-    --text-accent: var(--violet);
-    --text-title: var(--cyan);
-    --text-code: var(--magenta);
-    --text-highlight-fg: var(--blue);
-    --text-highlight-bg: var(--base2);
-    --pre-code: var(--base0);
     --background-modifier-border: var(--base1);
     --background-modifier-form-field: var(--base2);
-    --interactive-normal: var(--base3);
-    --interactive-accent: var(--orange);
+    --background-primary-alt: var(--base2);
+    --background-primary: var(--base3);
+    --background-secondary-alt: var(--base2);
+    --background-secondary: var(--base3);
     --interactive-accent-hover: var(--cyan);
     --interactive-accent-rgb: var(--green);
-    --text-on-accent: var(--base3);
-    --vim-cursor: var(--green);
+    --interactive-accent: var(--orange);
+    --interactive-normal: var(--base3);
+    --pre-code: var(--base0);
+    --text-accent: var(--violet);
     --text-border: var(--yellow);
-
+    --text-code: var(--magenta);
+    --text-error: var(--red);
+    --text-faint: var(--base1);
+    --text-highlight-bg: var(--base2);
+    --text-highlight-fg: var(--blue);
+    --text-muted: var(--base0);
+    --text-normal: var(--base00);
+    --text-on-accent: var(--base3);
+    --text-title: var(--cyan);
+    --vim-cursor: var(--green);
 }
 
 .cm-header {
