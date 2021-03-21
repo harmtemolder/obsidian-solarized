@@ -134,7 +134,7 @@ pre > code:not(.prism) {
 }
 
 pre.HyperMD-codeblock {
-    color: var(--text-normal) !important;
+    color: var(--text-on-selection) !important;
 }
 
 .cm-highlight, mark {
