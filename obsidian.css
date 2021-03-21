@@ -125,7 +125,8 @@ h1, h2, h3, h4, h5, h6, .markdown-preview-view h6{
 
 .CodeMirror span.cm-inline-code,
 .CodeMirror span.cm-math,
-pre > code:not(.prism) {
+pre > code:not(.prism),
+.markdown-preview-view code {
     color: var(--text-code);
 }
 
