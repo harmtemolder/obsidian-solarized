@@ -32,8 +32,8 @@
     --background-modifier-success: var(--green);
     --background-primary-alt: var(--base02);
     --background-primary: var(--base03);
-    --background-secondary-alt: var(--base02);
-    --background-secondary: var(--base03);
+    --background-secondary-alt: var(--background-primary-alt);
+    --background-secondary: var(--background-primary);
     --highlight-mix-blend-mode: lighten;
     --interactive-accent-hover: var(--cyan);
     --interactive-accent-rgb: var(--orange-rgb);
@@ -58,9 +58,9 @@
     --text-muted-rgb: var(--base00-rgb);
     --text-muted: var(--base00);
     --text-normal: var(--base0);
-    --text-on-accent: var(--base03);
+    --text-on-accent: var(--background-primary);
     --text-on-selection: var(--base1);
-    --text-selection: var(--base02);
+    --text-selection: var(--background-primary-alt);
     --text-title: var(--cyan);
     --vim-cursor: var(--green);
 
@@ -78,14 +78,14 @@
     --background-modifier-success: var(--green);
     --background-primary-alt: var(--base2);
     --background-primary: var(--base3);
-    --background-secondary-alt: var(--base2);
-    --background-secondary: var(--base3);
+    --background-secondary-alt: var(--background-primary-alt);
+    --background-secondary: var(--background-primary);
     --highlight-mix-blend-mode: lighten;
     --interactive-accent-hover: var(--cyan);
     --interactive-accent-rgb: var(--orange-rgb);
     --interactive-accent: var(--orange);
     --interactive-hover: var(--interactive-normal);
-    --interactive-normal: var(--base3);
+    --interactive-normal: var(--background-primary);
     --interactive-success: var(--green);
     --scrollbar-active-thumb-bg: rgba(255, 255, 255, 0.2);
     --scrollbar-bg: rgba(255, 255, 255, 0.05);
@@ -104,9 +104,9 @@
     --text-muted-rgb: var(--base1-rgb);
     --text-muted: var(--base1);
     --text-normal: var(--base00);
-    --text-on-accent: var(--base3);
+    --text-on-accent: var(--background-primary);
     --text-on-selection: var(--base01);
-    --text-selection: var(--base2);
+    --text-selection: var(--background-primary-alt);
     --text-title: var(--cyan);
     --vim-cursor: var(--green);
 }
