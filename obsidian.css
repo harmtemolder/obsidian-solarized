@@ -159,20 +159,24 @@ blockquote, .markdown-embed {
 .cm-s-obsidian span.cm-hashtag-end,
 a.tag {
     background-color: var(--text-normal);
-    color: var(--background-primary);
-    padding: 2px;
+    color: var(--background-primary) !important;
+    font-family: inherit;
     text-decoration: none;
 }
 
 .cm-s-obsidian span.cm-hashtag-begin {
-    border-radius: 10px 0px 0px 10px;
-    font-family: inherit;
-    padding-right: 0px;
+    border-radius: 1em 0px 0px 1em;
+    padding: 2px 0px 2px 5px;
 }
 
 .cm-s-obsidian span.cm-hashtag-end {
-    border-radius: 0px 10px 10px 0px;
-    padding-left: 0px;
+    border-radius: 0px 1em 1em 0px;
+    padding: 2px 5px 2px 0px;
+}
+
+a.tag {
+    border-radius: 1em;
+    padding: 2px 5px;
 }
 
 /* Frontmatter */
