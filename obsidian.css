@@ -55,15 +55,15 @@
     --interactive-accent-rgb: var(--green);
     --interactive-accent: var(--orange);
     --interactive-normal: var(--base3);
-    --pre-code: var(--base0);
     --text-accent: var(--violet);
+    --pre-code: var(--base1);
     --text-border: var(--yellow);
     --text-code: var(--magenta);
     --text-error: var(--red);
     --text-faint: var(--base1);
     --text-highlight-bg: var(--base2);
     --text-highlight-fg: var(--blue);
-    --text-muted: var(--base0);
+    --text-muted: var(--base1);
     --text-normal: var(--base00);
     --text-on-accent: var(--base3);
     --text-title: var(--cyan);
