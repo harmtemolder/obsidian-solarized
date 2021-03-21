@@ -27,7 +27,7 @@
     --interactive-accent-hover: var(--cyan);
     --interactive-accent-rgb: var(--green);
     --interactive-accent: var(--orange);
-    --interactive-normal: var(--red);
+    --interactive-normal: var(--base03);
     --pre-code: var(--base0);
     --text-accent: var(--blue);
     --text-border: var(--yellow);
