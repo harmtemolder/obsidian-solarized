@@ -148,10 +148,6 @@ blockquote, .markdown-embed {
     border-color: var(--text-border) !important;
 }
 
-.search-result-file-matched-text {
-    color: var(--text-highlight-fg);
-}
-
 .suggestion-item.is-selected {
     background-color: var(--background-secondary-alt);
 }
@@ -192,7 +188,13 @@ a.tag {
   color: var(--text-code);
 }
 
-/* Selection */
+/* Selection & search results */
 ::selection {
   color: var(--text-on-selection);
+}
+
+.search-result-file-matched-text,
+.cm-s-obsidian span.obsidian-search-match-highlight {
+    color: var(--text-on-accent);
+    background-color: var(--yellow);
 }
