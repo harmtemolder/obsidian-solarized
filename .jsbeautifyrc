@@ -1,0 +1,10 @@
+---
+  all:
+    editorconfig: true
+  css:
+    convert_quotes: "double"
+    max_preserve_newlines: 10
+    newline_between_rules: true
+    preserve_newlines: true
+    selector_separator_newline: true
+    selector_separator: " "
