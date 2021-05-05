@@ -2,7 +2,7 @@
 
 This is just a recolor for [Obsidian](https://obsidian.md/) based on [Ethan Schoonover's Solarized color scheme](https://ethanschoonover.com/solarized/). Works as of Obsidian 0.6.4.
 
-![Solarized for Obsidian](./Solarized.png)
+![Solarized for Obsidian](./screenshot.png)
 
 ## How to install
 
