@@ -1,24 +1,24 @@
 :root {
-    --base03:     #002b36;
-    --base02:     #073642;
-    --base01:     #586e75;
-    --base00:     #657b83;
+    --base03: #002b36;
+    --base02: #073642;
+    --base01: #586e75;
+    --base00: #657b83;
     --base00-rgb: 101, 123, 131;
-    --base0:      #839496;
-    --base1:      #93a1a1;
-    --base1-rgb:  147, 161, 161;
-    --base2:      #eee8d5;
-    --base3:      #fdf6e3;
-    --yellow:     #b58900;
-    --orange:     #cb4b16;
+    --base0: #839496;
+    --base1: #93a1a1;
+    --base1-rgb: 147, 161, 161;
+    --base2: #eee8d5;
+    --base3: #fdf6e3;
+    --yellow: #b58900;
+    --orange: #cb4b16;
     --orange-rgb: 203, 75, 22;
-    --red:        #dc322f;
-    --red-rgb:    220, 50 , 47;
-    --magenta:    #d33682;
-    --violet:     #6c71c4;
-    --blue:       #268bd2;
-    --cyan:       #2aa198;
-    --green:      #859900;
+    --red: #dc322f;
+    --red-rgb: 220, 50, 47;
+    --magenta: #d33682;
+    --violet: #6c71c4;
+    --blue: #268bd2;
+    --cyan: #2aa198;
+    --green: #859900;
 }
 
 .theme-dark {
@@ -64,7 +64,6 @@
     --text-selection: var(--background-primary-alt);
     --text-title: var(--cyan);
     --vim-cursor: var(--green);
-
 }
 
 .theme-light {
@@ -116,7 +115,13 @@
     color: var(--text-title);
 }
 
-h1, h2, h3, h4, h5, h6, .markdown-preview-view h6{
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.markdown-preview-view h6 {
     color: var(--text-title);
 }
 
@@ -126,7 +131,7 @@ h1, h2, h3, h4, h5, h6, .markdown-preview-view h6{
 
 .CodeMirror span.cm-inline-code,
 .CodeMirror span.cm-math,
-pre > code:not(.prism),
+pre>code:not(.prism),
 .markdown-preview-view code {
     color: var(--text-code);
 }
@@ -139,12 +144,14 @@ pre.HyperMD-codeblock {
     color: var(--text-on-selection) !important;
 }
 
-.cm-highlight, mark {
+.cm-highlight,
+mark {
     background: var(--text-highlight-bg) !important;
     color: var(--text-highlight-fg) !important;
 }
 
-blockquote, .markdown-embed {
+blockquote,
+.markdown-embed {
     border-color: var(--text-border) !important;
 }
 
@@ -181,11 +188,12 @@ a.tag {
 
 /* Frontmatter */
 .cm-s-obsidian span.cm-atom {
-  color: var(--text-accent);
+    color: var(--text-accent);
 }
 
-.cm-s-obsidian span.cm-meta, .cm-s-obsidian span.cm-def {
-  color: var(--text-code);
+.cm-s-obsidian span.cm-meta,
+.cm-s-obsidian span.cm-def {
+    color: var(--text-code);
 }
 
 /* Selection & search results */
@@ -193,6 +201,7 @@ a.tag {
   color: var(--text-on-selection);
 }
 
+/* Search results */
 .search-result-file-matched-text,
 .cm-s-obsidian span.obsidian-search-match-highlight {
     color: var(--text-on-accent);
