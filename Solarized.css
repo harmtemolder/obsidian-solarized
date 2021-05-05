@@ -159,6 +159,13 @@ blockquote,
     background-color: var(--background-secondary-alt);
 }
 
+/* Notice */
+.notice,
+.theme-dark .notice {
+    background-color: var(--interactive-accent);
+    color: var(--text-on-accent);
+}
+
 /* Tags */
 .cm-s-obsidian span.cm-hashtag-begin,
 .cm-s-obsidian span.cm-hashtag,
