@@ -203,9 +203,31 @@ a.tag {
     color: var(--text-code);
 }
 
-/* Selection & search results */
+/* Selection - Edit */
+.CodeMirror-selected {
+    background-color: rgba(0, 0, 0, 0.05) !important;
+}
+
+.theme-dark .CodeMirror-selected {
+    background-color: rgba(255, 255, 255, 0.05) !important;
+}
+
+/* Selection - Preview */
+.CodeMirror-line::selection,
+.CodeMirror-line>span::selection,
+.CodeMirror-line>span>span::selection,
 ::selection {
-  color: var(--text-on-selection);
+    background-color: var(--text-selection);
+    color: var(--text-on-selection);
+    text-decoration: underline;
+}
+
+.HyperMD-codeblock.CodeMirror-line::selection,
+.HyperMD-codeblock.CodeMirror-line>span::selection,
+.HyperMD-codeblock.CodeMirror-line>span>span::selection {
+    background-color: var(--background-primary);
+    color: var(--text-normal);
+    text-decoration: underline;
 }
 
 /* Search results */
