@@ -219,7 +219,7 @@ a.tag:hover {
 
 /* Selection & search results */
 ::selection {
-  color: var(--text-on-selection);
+    color: var(--text-on-selection);
 }
 
 /* Search results */
@@ -227,4 +227,11 @@ a.tag:hover {
 .cm-s-obsidian span.obsidian-search-match-highlight {
     color: var(--text-on-accent);
     background-color: var(--yellow);
+}
+
+/* Window title */
+.titlebar,
+.titlebar .titlebar-inner {
+    color: var(--text-on-selection);
+    background-color: var(--background-primary-alt);
 }
