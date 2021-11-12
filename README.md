@@ -8,4 +8,4 @@ This is just a recolor for [Obsidian](https://obsidian.md/) based on [Ethan Scho
 
 Find this theme in the Obsidian's community themes browser under Settings > Appearance > Themes.
 
-Alternatively, download `Solarized.css` to `.obsidian/themes` in your Vault folder and activate it under Settings > Appearance. (For older versions of Obsidian that do not support themes yet, rename `Solarized.css` to `obsidian.css` and place it in the root of your Vault.)
+Alternatively, download `obsidian.css` to `.obsidian/themes` in your Vault folder and rename it to `Solarized.css`. Then activate it under Settings > Appearance. (For older versions of Obsidian that do not support themes yet, just place `obsidian.css` in the root of your Vault.)
