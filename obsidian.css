@@ -219,29 +219,38 @@ a.tag:hover {
 
 /* Selection - Edit */
 .CodeMirror-selected {
+    background: rgba(0, 0, 0, 0.25) !important;
     background-color: rgba(0, 0, 0, 0.25) !important;
 }
 
 .theme-dark .CodeMirror-selected {
+    background: rgba(255, 255, 255, 0.25) !important;
     background-color: rgba(255, 255, 255, 0.25) !important;
 }
 
+div[style="position: relative; z-index: 1;"] {
+    z-index: 99 !important;
+}
+
 /* Selection - Preview */
+::selection,
 .CodeMirror-line::selection,
 .CodeMirror-line>span::selection,
 .CodeMirror-line>span>span::selection,
-::selection {
-    background-color: var(--text-selection);
-    color: var(--text-on-selection);
-    text-decoration: underline;
-}
-
 .HyperMD-codeblock.CodeMirror-line::selection,
 .HyperMD-codeblock.CodeMirror-line>span::selection,
 .HyperMD-codeblock.CodeMirror-line>span>span::selection {
-    background-color: var(--background-primary);
-    color: var(--text-normal);
-    text-decoration: underline;
+    background-color: rgba(0, 0, 0, 0.20) !important;
+}
+
+.theme-dark ::selection,
+.theme-dark .CodeMirror-line::selection,
+.theme-dark .CodeMirror-line>span::selection,
+.theme-dark .CodeMirror-line>span>span::selection,
+.theme-dark .HyperMD-codeblock.CodeMirror-line::selection,
+.theme-dark .HyperMD-codeblock.CodeMirror-line>span::selection,
+.theme-dark .HyperMD-codeblock.CodeMirror-line>span>span::selection {
+    background-color: rgba(255, 255, 255, 0.20) !important;
 }
 
 /* Search results */
