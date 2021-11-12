@@ -193,6 +193,11 @@ a.tag {
     padding: 2px 5px;
 }
 
+/* Background color of tag when hover */
+a.tag:hover {
+    background-color: var(--text-accent-hover);
+}
+
 /* Frontmatter */
 .cm-s-obsidian span.cm-atom {
     color: var(--text-accent);
@@ -201,6 +206,15 @@ a.tag {
 .cm-s-obsidian span.cm-meta,
 .cm-s-obsidian span.cm-def {
     color: var(--text-code);
+}
+
+/* Frontmatter tag colors, same as tags in main body */
+.frontmatter-container .tag {
+    background-color: var(--text-normal);
+}
+
+.frontmatter-container .tag:hover {
+    background-color: var(--text-accent-hover);
 }
 
 /* Selection & search results */
