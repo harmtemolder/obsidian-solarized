@@ -260,6 +260,16 @@ div[style="position: relative; z-index: 1;"] {
     background-color: var(--yellow);
 }
 
+/* In-page find results - Preview */
+.markdown-preview-view .search-highlight>div {
+    background-color: var(--yellow);
+    mix-blend-mode: color-burn;
+}
+
+.markdown-preview-view .search-highlight>div.is-active {
+    background-color: var(--yellow);
+}
+
 /* Window title */
 .titlebar,
 .titlebar .titlebar-inner {
