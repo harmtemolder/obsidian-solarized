@@ -276,3 +276,115 @@ div[style="position: relative; z-index: 1;"] {
     color: var(--text-on-selection);
     background-color: var(--background-primary-alt);
 }
+
+/* Slides */
+.reveal .slides {
+    width: 1920px !important;
+    height: 1080px !important;
+    zoom: 1 !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.reveal section.present {
+    max-width: 1920px;
+    max-height: 1080px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    top: unset !important;
+}
+
+.reveal {
+    --scrollbar-active-thumb-bg: rgba(255, 255, 255, 0.1);
+    --scrollbar-bg: rgba(255, 255, 255, 0);
+    --scrollbar-thumb-bg: rgba(255, 255, 255, 0.05);
+}
+
+.reveal .slides>section,
+.reveal .slides>section>section {
+    width: 80%;
+    transition: unset;
+}
+
+.reveal-viewport {
+    background: var(--background-primary);
+    background-color: var(--background-primary);
+}
+
+.reveal {
+    color: var(--text-title);
+    font-family: inherit;
+}
+
+.reveal h1,
+.reveal h2,
+.reveal h3,
+.reveal h4,
+.reveal h5,
+.reveal h6 {
+    color: var(--text-code);
+}
+
+.reveal input[type='checkbox'] {
+    height: 2em;
+    width: 2em;
+    margin: 0 2em;
+    cursor: pointer;
+}
+
+
+.reveal .task-list-item {
+    margin-left: auto;
+    text-indent: -2em;
+}
+
+.reveal ::selection {
+    color: var(--text-on-selection);
+    background: var(--text-selection);
+}
+
+.reveal ::-moz-selection {
+    color: var(--text-on-selection);
+    background: var(--text-selection);
+}
+
+.reveal pre,
+.reveal code,
+.reveal pre code {
+    color: var(--text-code);
+}
+
+.reveal table {
+    zoom: 0.5;
+}
+
+.reveal img {
+    width: unset;
+    outline: 3px solid var(--text-normal);
+    outline-offset: -3px;
+}
+
+.reveal a {
+    color: var(--text-muted);
+    text-decoration: underline;
+    transition: color .15s ease;
+}
+
+.reveal a:hover {
+    color: var(--text-normal);
+}
+
+.reveal .roll span:after {
+    color: var(--background-primary);
+    background: var(--text-muted);
+}
+
+.reveal .controls {
+    color: var(--text-muted);
+}
+
+.reveal .progress {
+    background: rgba(0, 0, 0, 0.2);
+    color: var(--text-muted);
+}
