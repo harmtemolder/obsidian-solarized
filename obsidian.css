@@ -28,8 +28,8 @@
     --background-modifier-error-hover: var(--text-error);
     --background-modifier-error-rgb: var(--red-rgb);
     --background-modifier-error: var(--text-error);
-    --background-modifier-form-field-highlighted: var(--base3);
-    --background-modifier-form-field: var(--base02);
+    --background-modifier-form-field-highlighted: var(--background-primary);
+    --background-modifier-form-field: var(--background-primary-alt);
     --background-modifier-success: var(--green);
     --background-primary-alt: var(--base02);
     --background-primary: var(--base03);
@@ -73,8 +73,8 @@
     --background-modifier-error-hover: var(--text-error);
     --background-modifier-error-rgb: var(--red-rgb);
     --background-modifier-error: var(--text-error);
-    --background-modifier-form-field-highlighted: var(--base3);
-    --background-modifier-form-field: var(--base2);
+    --background-modifier-form-field-highlighted: var(--background-primary);
+    --background-modifier-form-field: var(--background-primary-alt);
     --background-modifier-success: var(--green);
     --background-primary-alt: var(--base2);
     --background-primary: var(--base3);
