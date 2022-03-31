@@ -145,8 +145,9 @@ pre.HyperMD-codeblock {
 }
 
 .cm-highlight,
-mark {
+.markdown-preview-view mark {
     background: var(--text-highlight-bg) !important;
+    background-color: var(--text-highlight-bg) !important;
     color: var(--text-highlight-fg) !important;
 }
 
@@ -254,6 +255,8 @@ div[style="position: relative; z-index: 1;"] {
 }
 
 /* Search results */
+mark,
+.cm-searching,
 .search-result-file-matched-text,
 .cm-s-obsidian span.obsidian-search-match-highlight {
     color: var(--text-on-accent);
