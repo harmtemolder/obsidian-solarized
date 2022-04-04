@@ -233,7 +233,8 @@ div[style="position: relative; z-index: 1;"] {
     z-index: 99 !important;
 }
 
-/* Selection - Preview */
+/* Selection - Live Editor & Preview */
+.cm-selection,
 ::selection,
 .CodeMirror-line::selection,
 .CodeMirror-line>span::selection,
@@ -244,6 +245,7 @@ div[style="position: relative; z-index: 1;"] {
     background-color: rgba(0, 0, 0, 0.20) !important;
 }
 
+.theme-dark .cm-selection,
 .theme-dark ::selection,
 .theme-dark .CodeMirror-line::selection,
 .theme-dark .CodeMirror-line>span::selection,
