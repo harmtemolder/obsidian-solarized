@@ -115,6 +115,10 @@
     color: var(--text-title);
 }
 
+[data-heading] {
+    color: var(--text-title) !important;
+}
+
 h1,
 h2,
 h3,
