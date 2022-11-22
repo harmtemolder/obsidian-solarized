@@ -8,4 +8,29 @@ This is just a recolor for [Obsidian](https://obsidian.md/) based on [Ethan Scho
 
 Find this theme in the Obsidian's community themes browser under Settings > Appearance > Themes.
 
-Alternatively, download `obsidian.css` to `.obsidian/themes` in your Vault folder and rename it to `Solarized.css`. Then activate it under Settings > Appearance. (For older versions of Obsidian that do not support themes yet, just place `obsidian.css` in the root of your Vault.)
+## How to develop
+
+Make changes in the `scss` files and compile `obsidian.scss` into `obsidian.css` using something like [node-sass](https://www.npmjs.com/package/node-sass).
+
+I use [the sass-autocompile plugin for Atom](https://atom.io/packages/sass-autocompile) which compiles automatically when saving `obsidian.scss`.
+
+## Changelog
+
+All notable changes to this project will be documented here.
+
+The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
+
+## 1.0.0-beta - 2022-11-22
+
+### Fixed
+
+- Issues caused by Obsidian's upgrade to v1 (#23, #25, #26, #27)
+
+### Added
+
+- [[#Changelog]]
+
+### Changed
+
+- Using SCSS instead of plain CSS for cleaner development
+- Overwriting Obsidian's default CSS variables instead of overwriting actual CSS rules

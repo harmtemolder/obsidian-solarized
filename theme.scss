@@ -1,0 +1,14 @@
+// compileOnSave: true, expandedFilenamePattern: $1.css
+
+@import "_colors";
+@import "_variables";
+
+/* Checkboxes in editing view */
+.cm-s-obsidian span.cm-formatting-task {
+  color: var(--code-normal);
+}
+
+/* Links in editing view */
+.cm-s-obsidian span.cm-formatting-link {
+  color: var(--link-color);
+}

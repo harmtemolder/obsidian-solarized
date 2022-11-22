@@ -1,0 +1,103 @@
+// compileOnSave: false
+
+.theme-dark {
+
+  /* Overwrite default theme colors */
+  --color-base-00: #1e1e1e;
+  --color-base-10: #242424;
+  --color-base-20: #262626;
+  --color-base-25: #2a2a2a;
+  --color-base-30: var(--base03);
+  --color-base-35: var(--base02);
+  --color-base-40: #555;
+  --color-base-50: #666;
+  --color-base-60: #999;
+  --color-base-70: #bababa;
+  --color-base-100: #dadada;
+
+  /* Background */
+  --background-primary: var(--base03);
+  --background-primary-alt: var(--base02);
+
+  /* Text */
+  --text-normal: var(--base0);
+  --text-muted: var(--base00);
+  --text-faint: var(--base01);
+}
+
+.theme-light {
+
+  /* Overwrite default theme colors */
+  --color-base-00: var(--base3);
+  --color-base-05: #fcfcfc;
+  --color-base-10: var(--base2);
+  --color-base-20: #f6f6f6;
+  --color-base-25: #e3e3e3;
+  --color-base-30: #e0e0e0;
+  --color-base-35: #d4d4d4;
+  --color-base-40: #bdbdbd;
+  --color-base-50: #ababab;
+  --color-base-60: #707070;
+  --color-base-70: #5a5a5a;
+  --color-base-100: #222222;
+
+  /* Background */
+  --background-primary: var(--base3);
+  --background-primary-alt: var(--base2);
+
+  /* Text */
+  --text-normal: var(--base00);
+  --text-muted: var(--base0);
+  --text-faint: var(--base1);
+}
+
+.theme-dark,
+.theme-light {
+  /* Overwrite default theme colors */
+  --color-red-rgb: var(--red-rgb);
+  --color-red: var(--red);
+  --color-green-rgb: var(--green-rgb);
+  --color-green: var(--green);
+  --color-orange: var(--orange);
+  --color-yellow: var(--yellow);
+  --color-cyan: var(--cyan);
+  --color-blue: var(--blue);
+  --color-purple: var(--violet);
+  --color-pink: var(--magenta);
+  --interactive-accent: var(--color-accent);
+
+  /* Background */
+  --background-secondary: var(--background-primary);
+  --background-secondary-alt: var(--background-primary-alt);
+
+  /* Headings */
+  --text-title: var(--cyan);
+  --h1-color: var(--text-title);
+  --h2-color: var(--text-title);
+  --h3-color: var(--text-title);
+  --h4-color: var(--text-title);
+  --h5-color: var(--text-title);
+  --h6-color: var(--text-title);
+
+  /* Links */
+  --link-color: var(--blue);
+  --link-color-hover: var(--link-color);
+  --link-external-color: var(--link-color);
+  --link-external-color-hover: var(--link-external-color);
+
+  /* Code */
+  --code-normal: var(--magenta);
+
+  /* Checkboxes in reading view */
+  --checkbox-color: var(--code-normal);
+  --checkbox-color-hover: var(--code-normal);
+
+  /* Vim cursor */
+  .ͼo.cm-focused .cm-fat-cursor {
+    background: var(--green);
+  }
+
+  .ͼo:not(.cm-focused) .cm-fat-cursor {
+    outline: solid 1px var(--green);
+  }
+}
