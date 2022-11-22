@@ -8,6 +8,8 @@ This is just a recolor for [Obsidian](https://obsidian.md/) based on [Ethan Scho
 
 Find this theme in the Obsidian's community themes browser under Settings > Appearance > Themes. If that doesn't work, double-check if you are running the latest version of Obsidian.
 
+Older versions of Obsidian might still be able to use the old `obsidian.css`, but there won't be any support going forward.
+
 ## How to use
 
 - This theme respects Obsidian's accent color setting, so you can set that to any of [Solarized's accent colors](https://ethanschoonover.com/solarized/#the-values).
@@ -38,7 +40,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 #### Fixed
 
-- Issues caused by Obsidian's upgrade to v1 ([#23](https://github.com/Slowbad/obsidian-solarized/issues/23), [#25](https://github.com/Slowbad/obsidian-solarized/issues/25), [#26](https://github.com/Slowbad/obsidian-solarized/issues/26), [#27](https://github.com/Slowbad/obsidian-solarized/issues/27))
+- Issues caused by Obsidian's upgrade to v1.0.0 ([#23](https://github.com/Slowbad/obsidian-solarized/issues/23), [#25](https://github.com/Slowbad/obsidian-solarized/issues/25), [#26](https://github.com/Slowbad/obsidian-solarized/issues/26), [#27](https://github.com/Slowbad/obsidian-solarized/issues/27))
 
 #### Added
 
