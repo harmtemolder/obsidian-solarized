@@ -3,21 +3,38 @@
 @import "_colors";
 @import "_variables";
 
-/* Checkboxes in editing view */
-.cm-s-obsidian span.cm-formatting-task {
-  color: var(--code-normal);
+.cm-s-obsidian {
+  /* Checkboxes in editing view */
+  span.cm-formatting-task {
+    color: var(--checkbox-color);
+  }
+
+  /* Links in editing view */
+  span.cm-formatting-link {
+    color: var(--link-color);
+  }
+
+  /* Code colors in editing view */
+  span.cm-comment {
+    color: var(--code-comment);
+  }
 }
 
-/* Links in editing view */
-.cm-s-obsidian span.cm-formatting-link {
-  color: var(--link-color);
-}
-
-/* Code colors in editing view */
-.cm-s-obsidian span.cm-comment {
-  color: var(--code-comment);
-}
-
-.cm-def {
+.cm-def,
+.cm-hmd-frontmatter.cm-hmd-frontmatter.cm-def {
   color: var(--code-function);
+}
+
+.cm-atom,
+.cm-hmd-frontmatter.cm-hmd-frontmatter.cm-atom {
+  color: var(--code-value);
+}
+
+/* Vim cursor */
+.ͼo.cm-focused .cm-fat-cursor {
+  background: var(--green);
+}
+
+.ͼo:not(.cm-focused) .cm-fat-cursor {
+  outline: solid 1px var(--green);
 }

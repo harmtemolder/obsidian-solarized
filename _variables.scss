@@ -75,6 +75,7 @@
 
   /* Headings */
   --text-title: var(--cyan);
+  --heading-formatting: var(--text-title);
   --h1-color: var(--text-title);
   --h2-color: var(--text-title);
   --h3-color: var(--text-title);
@@ -93,7 +94,7 @@
   --code-function: var(--blue);
   --code-important: var(--orange);
   --code-keyword: var(--green);
-  --code-normal: var(--text-muted);
+  --code-normal: var(--text-normal);
   --code-operator: var(--code-normal);
   --code-property: var(--code-normal);
   --code-punctuation: var(--code-normal);
@@ -102,15 +103,8 @@
   --code-value: var(--magenta);
 
   /* Checkboxes in reading view */
-  --checkbox-color: var(--code-normal);
-  --checkbox-color-hover: var(--code-normal);
-
-  /* Vim cursor */
-  .ͼo.cm-focused .cm-fat-cursor {
-    background: var(--green);
-  }
-
-  .ͼo:not(.cm-focused) .cm-fat-cursor {
-    outline: solid 1px var(--green);
-  }
+  --checkbox-border-color: var(--interactive-accent);
+  --checkbox-border-color-hover: var(--interactive-accent-hover);
+  // --checkbox-color: var(--interactive-accent);
+  // --checkbox-color-hover: var(--interactive-accent-hover);
 }

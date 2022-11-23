@@ -101,6 +101,7 @@
   --background-secondary-alt: var(--background-primary-alt);
   /* Headings */
   --text-title: var(--cyan);
+  --heading-formatting: var(--text-title);
   --h1-color: var(--text-title);
   --h2-color: var(--text-title);
   --h3-color: var(--text-title);
@@ -117,7 +118,7 @@
   --code-function: var(--blue);
   --code-important: var(--orange);
   --code-keyword: var(--green);
-  --code-normal: var(--text-muted);
+  --code-normal: var(--text-normal);
   --code-operator: var(--code-normal);
   --code-property: var(--code-normal);
   --code-punctuation: var(--code-normal);
@@ -125,36 +126,43 @@
   --code-tag: var(--red);
   --code-value: var(--magenta);
   /* Checkboxes in reading view */
-  --checkbox-color: var(--code-normal);
-  --checkbox-color-hover: var(--code-normal);
-  /* Vim cursor */
+  --checkbox-border-color: var(--interactive-accent);
+  --checkbox-border-color-hover: var(--interactive-accent-hover);
 }
 
-.theme-dark .ͼo.cm-focused .cm-fat-cursor,
-.theme-light .ͼo.cm-focused .cm-fat-cursor {
-  background: var(--green);
+.cm-s-obsidian {
+  /* Checkboxes in editing view */
+  /* Links in editing view */
+  /* Code colors in editing view */
 }
 
-.theme-dark .ͼo:not(.cm-focused) .cm-fat-cursor,
-.theme-light .ͼo:not(.cm-focused) .cm-fat-cursor {
-  outline: solid 1px var(--green);
-}
-
-/* Checkboxes in editing view */
 .cm-s-obsidian span.cm-formatting-task {
-  color: var(--code-normal);
+  color: var(--checkbox-color);
 }
 
-/* Links in editing view */
 .cm-s-obsidian span.cm-formatting-link {
   color: var(--link-color);
 }
 
-/* Code colors in editing view */
 .cm-s-obsidian span.cm-comment {
   color: var(--code-comment);
 }
 
-.cm-def {
+.cm-def,
+.cm-hmd-frontmatter.cm-hmd-frontmatter.cm-def {
   color: var(--code-function);
+}
+
+.cm-atom,
+.cm-hmd-frontmatter.cm-hmd-frontmatter.cm-atom {
+  color: var(--code-value);
+}
+
+/* Vim cursor */
+.ͼo.cm-focused .cm-fat-cursor {
+  background: var(--green);
+}
+
+.ͼo:not(.cm-focused) .cm-fat-cursor {
+  outline: solid 1px var(--green);
 }

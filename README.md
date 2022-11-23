@@ -12,7 +12,7 @@ Older versions of Obsidian might still be able to use the old `obsidian.css`, bu
 
 ## How to use
 
-- This theme respects Obsidian's accent color setting, so you can set that to any of [Solarized's accent colors](https://ethanschoonover.com/solarized/#the-values).
+- This theme respects Obsidian's accent color setting, so you can set that to any of [Solarized's accent colors](https://ethanschoonover.com/solarized/#the-values). This is then used to color UI elements as well as checkboxes, among others.
 
 ## How to develop
 
@@ -25,6 +25,12 @@ I use [the sass-autocompile plugin for Atom](https://atom.io/packages/sass-autoc
 All notable changes to this project will be documented here.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
+
+### 1.0.3-beta - 2022-11-23
+
+#### Changed
+
+- Use accent color for checkboxes in both editing and reading view
 
 ### 1.0.2-beta - 2022-11-23
 
