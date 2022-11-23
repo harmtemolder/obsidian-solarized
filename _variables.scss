@@ -89,7 +89,17 @@
   --link-external-color-hover: var(--link-external-color);
 
   /* Code */
-  --code-normal: var(--magenta);
+  --code-comment: var(--cyan);
+  --code-function: var(--blue);
+  --code-important: var(--orange);
+  --code-keyword: var(--green);
+  --code-normal: var(--text-muted);
+  --code-operator: var(--code-normal);
+  --code-property: var(--code-normal);
+  --code-punctuation: var(--code-normal);
+  --code-string: var(--cyan);
+  --code-tag: var(--red);
+  --code-value: var(--magenta);
 
   /* Checkboxes in reading view */
   --checkbox-color: var(--code-normal);

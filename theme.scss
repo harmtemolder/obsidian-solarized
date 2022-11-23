@@ -12,3 +12,12 @@
 .cm-s-obsidian span.cm-formatting-link {
   color: var(--link-color);
 }
+
+/* Code colors in editing view */
+.cm-s-obsidian span.cm-comment {
+  color: var(--code-comment);
+}
+
+.cm-def {
+  color: var(--code-function);
+}
