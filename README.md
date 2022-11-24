@@ -48,6 +48,19 @@ All notable changes to this project will be documented here.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+### 1.0.4-beta - 2022-11-24
+
+#### Added
+
+- More consistent colors for internal, unresolved and external links
+- Bold table headers
+
+#### Changed
+
+- Use accent color for vim cursor
+- Use accent color for search results and highlights
+- Use accent color for frontmatter dashes and parameters
+
 ### 1.0.3-beta - 2022-11-23
 
 #### Changed

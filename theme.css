@@ -1,4 +1,3 @@
-@charset "UTF-8";
 :root {
   --base03-rgb: 0, 43, 54;
   --base03: rgb(var(--base03-rgb));
@@ -99,6 +98,8 @@
   /* Background */
   --background-secondary: var(--background-primary);
   --background-secondary-alt: var(--background-primary-alt);
+  /* Text */
+  --text-on-accent: var(--background-primary);
   /* Headings */
   --text-title: var(--cyan);
   --heading-formatting: var(--text-title);
@@ -111,29 +112,46 @@
   /* Links */
   --link-color: var(--blue);
   --link-color-hover: var(--link-color);
-  --link-external-color: var(--link-color);
+  --link-decoration: none;
+  --link-decoration-hover: underline;
+  --link-external-color: var(--violet);
   --link-external-color-hover: var(--link-external-color);
+  --link-external-decoration: none;
+  --link-external-decoration-hover: underline;
+  --link-unresolved-color: var(--red);
+  --link-unresolved-color-hover: var(--link-unresolved-color);
+  --link-unresolved-opacity: unset;
+  --link-unresolved-decoration-color: var(--link-unresolved-color);
   /* Code */
+  --code-normal: var(--text-normal);
   --code-comment: var(--cyan);
   --code-function: var(--blue);
   --code-important: var(--orange);
   --code-keyword: var(--green);
-  --code-normal: var(--text-normal);
   --code-operator: var(--code-normal);
   --code-property: var(--code-normal);
   --code-punctuation: var(--code-normal);
   --code-string: var(--cyan);
   --code-tag: var(--red);
   --code-value: var(--magenta);
+  /* Tables */
+  --table-header-size: inherit;
+  --table-header-weight: var(--font-bold);
+  --table-header-color: inherit;
+  /* Highlights */
+  --text-highlight-bg: hsla(var(--color-accent-hsl), 0.3);
+  --text-highlight-bg-active: hsla(var(--color-accent-hsl), 0.4);
   /* Checkboxes in reading view */
   --checkbox-border-color: var(--interactive-accent);
   --checkbox-border-color-hover: var(--interactive-accent-hover);
 }
 
 .cm-s-obsidian {
-  /* Checkboxes in editing view */
-  /* Links in editing view */
-  /* Code colors in editing view */
+  /* Checkboxes */
+  /* Links */
+  /* Tables */
+  /* Search results */
+  /* Code colors */
 }
 
 .cm-s-obsidian span.cm-formatting-task {
@@ -144,25 +162,44 @@
   color: var(--link-color);
 }
 
+.cm-s-obsidian span.cm-link {
+  color: var(--link-external-color) !important;
+}
+
+.cm-s-obsidian .HyperMD-table-row-0 {
+  font-weight: var(--font-bold);
+}
+
+.cm-s-obsidian span.obsidian-search-match-highlight {
+  box-shadow: unset;
+  mix-blend-mode: unset;
+  border-radius: unset;
+  background: var(--text-selection);
+}
+
 .cm-s-obsidian span.cm-comment {
   color: var(--code-comment);
 }
 
-.cm-def,
-.cm-hmd-frontmatter.cm-hmd-frontmatter.cm-def {
+.cm-def {
   color: var(--code-function);
 }
 
-.cm-atom,
-.cm-hmd-frontmatter.cm-hmd-frontmatter.cm-atom {
+.cm-atom {
   color: var(--code-value);
 }
 
-/* Vim cursor */
-.ͼo.cm-focused .cm-fat-cursor {
-  background: var(--green);
+.cm-hmd-frontmatter.cm-hmd-frontmatter.cm-atom,
+.cm-hmd-frontmatter.cm-hmd-frontmatter.cm-def {
+  color: var(--interactive-accent);
 }
 
-.ͼo:not(.cm-focused) .cm-fat-cursor {
-  outline: solid 1px var(--green);
+/* Search all results */
+.is-flashing {
+  border-radius: unset;
+}
+
+.markdown-rendered .internal-link.is-unresolved:hover {
+  color: var(--link-unresolved-color-hover);
+  text-decoration-color: var(--link-unresolved-color-hover);
 }

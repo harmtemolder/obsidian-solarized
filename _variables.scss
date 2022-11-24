@@ -73,6 +73,9 @@
   --background-secondary: var(--background-primary);
   --background-secondary-alt: var(--background-primary-alt);
 
+  /* Text */
+  --text-on-accent: var(--background-primary);
+
   /* Headings */
   --text-title: var(--cyan);
   --heading-formatting: var(--text-title);
@@ -86,21 +89,38 @@
   /* Links */
   --link-color: var(--blue);
   --link-color-hover: var(--link-color);
-  --link-external-color: var(--link-color);
+  --link-decoration: none;
+  --link-decoration-hover: underline;
+  --link-external-color: var(--violet);
   --link-external-color-hover: var(--link-external-color);
+  --link-external-decoration: none;
+  --link-external-decoration-hover: underline;
+  --link-unresolved-color: var(--red);
+  --link-unresolved-color-hover: var(--link-unresolved-color);
+  --link-unresolved-opacity: unset;
+  --link-unresolved-decoration-color: var(--link-unresolved-color);
 
   /* Code */
+  --code-normal: var(--text-normal);
   --code-comment: var(--cyan);
   --code-function: var(--blue);
   --code-important: var(--orange);
   --code-keyword: var(--green);
-  --code-normal: var(--text-normal);
   --code-operator: var(--code-normal);
   --code-property: var(--code-normal);
   --code-punctuation: var(--code-normal);
   --code-string: var(--cyan);
   --code-tag: var(--red);
   --code-value: var(--magenta);
+
+  /* Tables */
+  --table-header-size: inherit;
+  --table-header-weight: var(--font-bold);
+  --table-header-color: inherit;
+
+  /* Highlights */
+  --text-highlight-bg: hsla(var(--color-accent-hsl), 0.3);
+  --text-highlight-bg-active: hsla(var(--color-accent-hsl), 0.4);
 
   /* Checkboxes in reading view */
   --checkbox-border-color: var(--interactive-accent);

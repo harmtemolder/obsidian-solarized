@@ -4,37 +4,60 @@
 @import "_variables";
 
 .cm-s-obsidian {
-  /* Checkboxes in editing view */
+  /* Checkboxes */
   span.cm-formatting-task {
     color: var(--checkbox-color);
   }
 
-  /* Links in editing view */
+  /* Links */
   span.cm-formatting-link {
     color: var(--link-color);
   }
 
-  /* Code colors in editing view */
+  span.cm-link {
+    color: var(--link-external-color) !important;
+  }
+
+  /* Tables */
+  .HyperMD-table-row-0 {
+    font-weight: var(--font-bold);
+  }
+
+  /* Search results */
+  span.obsidian-search-match-highlight {
+    box-shadow: unset;
+    mix-blend-mode: unset;
+    border-radius: unset;
+    background: var(--text-selection);
+  }
+
+  /* Code colors */
   span.cm-comment {
     color: var(--code-comment);
   }
 }
 
-.cm-def,
-.cm-hmd-frontmatter.cm-hmd-frontmatter.cm-def {
+.cm-def {
   color: var(--code-function);
 }
 
-.cm-atom,
-.cm-hmd-frontmatter.cm-hmd-frontmatter.cm-atom {
+.cm-atom {
   color: var(--code-value);
 }
 
-/* Vim cursor */
-.ͼo.cm-focused .cm-fat-cursor {
-  background: var(--green);
+.cm-hmd-frontmatter.cm-hmd-frontmatter.cm-atom,
+.cm-hmd-frontmatter.cm-hmd-frontmatter.cm-def {
+  color: var(--interactive-accent);
 }
 
-.ͼo:not(.cm-focused) .cm-fat-cursor {
-  outline: solid 1px var(--green);
+/* Search all results */
+.is-flashing {
+  border-radius: unset;
+}
+
+.markdown-rendered {
+  .internal-link.is-unresolved:hover {
+    color: var(--link-unresolved-color-hover);
+    text-decoration-color: var(--link-unresolved-color-hover);
+  }
 }
