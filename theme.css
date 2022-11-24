@@ -38,9 +38,9 @@
   --color-base-00: #1e1e1e;
   --color-base-10: #242424;
   --color-base-20: #262626;
-  --color-base-25: #2a2a2a;
-  --color-base-30: var(--base01);
-  --color-base-35: var(--base00);
+  --color-base-25: var(--base03);
+  --color-base-30: var(--base02);
+  --color-base-35: var(--base02);
   --color-base-40: var(--base0);
   --color-base-50: #666;
   --color-base-60: #999;
@@ -57,13 +57,13 @@
 
 .theme-light {
   /* Overwrite default theme colors */
-  --color-base-00: var(--base3);
+  --color-base-00: var(--base2);
   --color-base-05: #fcfcfc;
   --color-base-10: var(--base2);
   --color-base-20: #f6f6f6;
   --color-base-25: #e3e3e3;
-  --color-base-30: var(--base1);
-  --color-base-35: var(--base0);
+  --color-base-30: var(--base2);
+  --color-base-35: var(--base2);
   --color-base-40: var(--base00);
   --color-base-50: #ababab;
   --color-base-60: #707070;
