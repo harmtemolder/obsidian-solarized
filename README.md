@@ -8,6 +8,8 @@ If anything is not working for you, please let me know [here](https://github.com
 
 [^1]: Older versions of Obsidian might still be able to use the old `obsidian.css`, but there won't be any support going forward.
 
+> **Please weigh in on this discussion: [Should fonts be included, or not?](https://github.com/Slowbad/obsidian-solarized/issues/29).**
+
 ## About Solarized
 
 Some outtakes from [Ethan Schoonover's full write-up](https://ethanschoonover.com/solarized/#features):
