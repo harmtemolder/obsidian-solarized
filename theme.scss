@@ -4,6 +4,7 @@
 @import "_variables";
 
 .cm-s-obsidian {
+
   /* Checkboxes */
   span.cm-formatting-task {
     color: var(--checkbox-color);
@@ -28,15 +29,29 @@
     box-shadow: unset;
     mix-blend-mode: unset;
     border-radius: unset;
-    background: var(--text-selection);
+    background: var(--green);
+    color: var(--text-on-accent);
+    padding: 2px 0;
   }
 
-  /* Code colors */
+  /* Code */
   span.cm-comment {
     color: var(--code-comment);
   }
+
+  span.cm-inline-code {
+    padding: 2px 0;
+  }
+
+  /* Highlights */
+  span.cm-formatting-highlight,
+  span.cm-highlight {
+    color: var(--text-on-accent);
+    padding: 2px 0;
+  }
 }
 
+/* More code */
 .cm-def {
   color: var(--code-function);
 }
@@ -50,9 +65,14 @@
   color: var(--interactive-accent);
 }
 
-/* Search all results */
+/* Search results */
 .is-flashing {
   border-radius: unset;
+}
+
+.search-result-file-matched-text {
+  color: var(--text-on-accent);
+  padding: 2px 0;
 }
 
 .markdown-rendered {
@@ -60,4 +80,68 @@
     color: var(--link-unresolved-color-hover);
     text-decoration-color: var(--link-unresolved-color-hover);
   }
+}
+
+/* Highlight current line */
+.cm-active {
+  background: var(--active-bg);
+
+  &.cm-gutterElement {
+    color: var(--color-accent);
+  }
+}
+
+.markdown-source-view.mod-cm6 {
+  .cm-scroller {
+    font-family: var(--font-monospace);
+  }
+}
+
+/* Hashtags */
+.cm-hashtag {
+
+  &.cm-hashtag-begin,
+  &.cm-hashtag-end {
+    border: unset;
+    border-radius: unset;
+  }
+}
+
+/* https://github.com/nothingislost/obsidian-dynamic-highlights */
+.cm-current-word,
+.cm-matched-word,
+.cm-current-string,
+.cm-matched-string {
+  background: var(--yellow);
+  color: var(--text-on-accent);
+  text-decoration: none;
+  padding: 2px 0;
+}
+
+
+/* File explorer */
+.is-flashing {
+  color: var(--text-on-accent) !important;
+}
+
+.workspace-leaf.mod-active {
+
+  .nav-folder.has-focus>.nav-folder-title,
+  .nav-file.has-focus>.nav-file-title {
+    box-shadow: 0 0 0 2px var(--color-accent);
+  }
+}
+
+/* Fonts */
+.cm-line,
+.markdown-source-view {
+  font-family: var(--font-monospace);
+  font-size: var(--code-size);
+  line-height: 1.5em;
+}
+
+.markdown-preview-view pre,
+.markdown-preview-view code {
+  font-size: var(--code-size);
+  line-height: 1.5em;
 }

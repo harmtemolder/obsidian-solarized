@@ -4,11 +4,11 @@
 
 This is a recolor for [Obsidian](https://obsidian.md/) based on [Ethan Schoonover's Solarized color scheme](https://ethanschoonover.com/solarized/). Works as of Obsidian v1.0.0[^1].
 
-If anything is not working for you, please let me know [here](https://github.com/Slowbad/obsidian-solarized/issues).
+If anything is not working for you, please let me know [here](https://github.com/harmtemolder/obsidian-solarized/issues).
 
 [^1]: Older versions of Obsidian might still be able to use the old `obsidian.css`, but there won't be any support going forward.
 
-> **Please weigh in on this discussion: [Should fonts be included, or not?](https://github.com/Slowbad/obsidian-solarized/issues/29).**
+> **Please weigh in on this discussion: [Should fonts be included, or not?](https://github.com/harmtemolder/obsidian-solarized/issues/29).**
 
 ## About Solarized
 
@@ -52,10 +52,23 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 ### Unreleased
 
+### 1.0.6-beta - 2023-07-07
+
 #### Added
 
+- Highlight active line in editor
 - `.vscode/tasks.json` (see [How to develop](#how-to-develop))
 - Support for [the Dynamic Highlights plugin](https://github.com/nothingislost/obsidian-dynamic-highlights)
+  - Yellow highlights to differentiate from other highlights
+
+#### Changed
+
+- Use existing `--code-size` variable for size of monospace fonts in editor and preview
+- Color checkboxes in editing view
+- Color selected file in file explorer and more contrast when flashing
+- More contrast in highlight when clicking from outline tab
+- Color search results green to differentiate from other highlights
+- Color border of focussed UI element
 
 ### 1.0.5-beta - 2022-11-24
 
@@ -86,7 +99,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 #### Changed
 
-- Follow [Ethan Schoonover's examples](https://ethanschoonover.com/solarized/#screenshots) more closely for code formatting (fixing [#27](https://github.com/Slowbad/obsidian-solarized/issues/27))
+- Follow [Ethan Schoonover's examples](https://ethanschoonover.com/solarized/#screenshots) more closely for code formatting (fixing [#27](https://github.com/harmtemolder/obsidian-solarized/issues/27))
 
 ### 1.0.1-beta - 2022-11-22
 
@@ -102,7 +115,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 #### Fixed
 
-- Issues caused by Obsidian's upgrade to v1.0.0 ([#23](https://github.com/Slowbad/obsidian-solarized/issues/23), [#25](https://github.com/Slowbad/obsidian-solarized/issues/25), [#26](https://github.com/Slowbad/obsidian-solarized/issues/26), [#27](https://github.com/Slowbad/obsidian-solarized/issues/27))
+- Issues caused by Obsidian's upgrade to v1.0.0 ([#23](https://github.com/harmtemolder/obsidian-solarized/issues/23), [#25](https://github.com/harmtemolder/obsidian-solarized/issues/25), [#26](https://github.com/harmtemolder/obsidian-solarized/issues/26), [#27](https://github.com/harmtemolder/obsidian-solarized/issues/27))
 
 #### Added
 
