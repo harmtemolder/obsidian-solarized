@@ -42,13 +42,20 @@ Find this theme in the Obsidian's community themes browser under Settings > Appe
 
 Make changes in the `scss` files and compile `theme.scss` into `theme.css` using something like [node-sass](https://www.npmjs.com/package/node-sass).
 
-I use [the sass-autocompile plugin for Atom](https://atom.io/packages/sass-autocompile) which compiles automatically when saving `theme.scss`.
+I use the `.vscode/tasks.json` to compile with <kbd>ctrl</kbd>+<kbd>shift</kbd>+<kbd>B</kbd> in [VSCodium](https://github.com/VSCodium/vscodium#readme).
 
 ## Changelog
 
 All notable changes to this project will be documented here.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
+
+### Unreleased
+
+#### Added
+
+- `.vscode/tasks.json` (see [How to develop](#how-to-develop))
+- Support for [the Dynamic Highlights plugin](https://github.com/nothingislost/obsidian-dynamic-highlights)
 
 ### 1.0.5-beta - 2022-11-24
 
