@@ -240,11 +240,8 @@
 /* Fonts */
 .cm-line,
 .markdown-source-view {
-  font-family: var(--font-monospace);
-  font-size: var(--code-size);
   line-height: 1.5em; }
 
 .markdown-preview-view pre,
 .markdown-preview-view code {
-  font-size: var(--code-size);
   line-height: 1.5em; }

@@ -44,6 +44,8 @@ Make changes in the `scss` files and compile `theme.scss` into `theme.css` using
 
 I use the `.vscode/tasks.json` to compile with <kbd>ctrl</kbd>+<kbd>shift</kbd>+<kbd>B</kbd> in [VSCodium](https://github.com/VSCodium/vscodium#readme).
 
+Don't forget to update the version number in `manifest.json`.
+
 ## Changelog
 
 All notable changes to this project will be documented here.
@@ -51,6 +53,13 @@ All notable changes to this project will be documented here.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ### Unreleased
+
+### 1.0.7-beta - 2023-07-24
+
+#### Removed
+
+- Do not adjust font sizes
+- Delete legacy `obsidian.css`
 
 ### 1.0.6-beta - 2023-07-07
 
