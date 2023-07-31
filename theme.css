@@ -162,8 +162,12 @@
     color: var(--checkbox-color); }
   .cm-s-obsidian span.cm-formatting-link {
     color: var(--link-color); }
+    .cm-s-obsidian span.cm-formatting-link.cm-strikethrough {
+      text-decoration-line: line-through; }
   .cm-s-obsidian span.cm-link {
     color: var(--link-external-color) !important; }
+  .cm-s-obsidian span.cm-url.cm-strikethrough {
+    text-decoration-line: line-through; }
   .cm-s-obsidian .HyperMD-table-row-0 {
     font-weight: var(--font-bold); }
   .cm-s-obsidian span.obsidian-search-match-highlight {
@@ -236,12 +240,3 @@
 .workspace-leaf.mod-active .nav-folder.has-focus > .nav-folder-title,
 .workspace-leaf.mod-active .nav-file.has-focus > .nav-file-title {
   box-shadow: 0 0 0 2px var(--color-accent); }
-
-/* Fonts */
-.cm-line,
-.markdown-source-view {
-  line-height: 1.5em; }
-
-.markdown-preview-view pre,
-.markdown-preview-view code {
-  line-height: 1.5em; }

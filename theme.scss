@@ -13,10 +13,20 @@
   /* Links */
   span.cm-formatting-link {
     color: var(--link-color);
+
+    &.cm-strikethrough {
+      text-decoration-line: line-through;
+    }
   }
 
   span.cm-link {
     color: var(--link-external-color) !important;
+  }
+
+  span.cm-url {
+    &.cm-strikethrough {
+      text-decoration-line: line-through;
+    }
   }
 
   /* Tables */

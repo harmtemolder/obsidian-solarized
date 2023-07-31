@@ -46,6 +46,8 @@ I use the `.vscode/tasks.json` to compile with <kbd>ctrl</kbd>+<kbd>shift</kbd>+
 
 Don't forget to update the version number in `manifest.json`.
 
+You can add a tag to a commit with `git tag v1.0.8-beta`. Then `git push --tags`.
+
 ## Changelog
 
 All notable changes to this project will be documented here.
@@ -53,6 +55,12 @@ All notable changes to this project will be documented here.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ### Unreleased
+
+### 1.0.8-beta - 2023-07-31
+
+#### Fixed
+
+- Fix strikethrough of links in editing view
 
 ### 1.0.7-beta - 2023-07-24
 
