@@ -215,9 +215,6 @@
   .cm-active.cm-gutterElement {
     color: var(--color-accent); }
 
-.markdown-source-view.mod-cm6 .cm-scroller {
-  font-family: var(--font-monospace); }
-
 /* Hashtags */
 .cm-hashtag.cm-hashtag-begin, .cm-hashtag.cm-hashtag-end {
   border: unset;
