@@ -7,7 +7,7 @@
     {
       "label": "Sass Compile",
       "type": "shell",
-      "command": "node-sass theme.scss > theme.css",
+      "command": "sass theme.scss theme.css",
       "group": "build"
     }
   ]

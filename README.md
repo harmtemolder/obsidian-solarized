@@ -40,7 +40,7 @@ Find this theme in the Obsidian's community themes browser under Settings > Appe
 
 ## How to develop
 
-Make changes in the `scss` files and compile `theme.scss` into `theme.css` using something like [node-sass](https://www.npmjs.com/package/node-sass).
+Make changes in the `scss` files and compile `theme.scss` into `theme.css` using something like [dart-sass](https://sass-lang.com/dart-sass/).
 
 I use the `.vscode/tasks.json` to compile with <kbd>ctrl</kbd>+<kbd>shift</kbd>+<kbd>B</kbd> in [VSCodium](https://github.com/VSCodium/vscodium#readme).
 
