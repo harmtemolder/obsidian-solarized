@@ -225,9 +225,16 @@
   padding: 2px 0;
 }
 
+.markdown-rendered {
+  /* Unresolved links in preview mode */
+  /* Highlights in preview mode */
+}
 .markdown-rendered .internal-link.is-unresolved:hover {
   color: var(--link-unresolved-color-hover);
   text-decoration-color: var(--link-unresolved-color-hover);
+}
+.markdown-rendered mark {
+  color: var(--text-on-accent);
 }
 
 /* Highlight current line */

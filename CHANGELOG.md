@@ -10,6 +10,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Fixed
 
 - Correct text color in community plugin and theme browser search results (see [#35](https://github.com/harmtemolder/obsidian-solarized/issues/35))
+- Correct text color in preview mode highlights (see [#35](https://github.com/harmtemolder/obsidian-solarized/issues/35))
 
 ### Changed
 
