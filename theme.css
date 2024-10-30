@@ -218,6 +218,14 @@
 /* Search results */
 .is-flashing {
   border-radius: unset;
+  --link-color: var(--text-on-accent);
+  --link-color-hover: var(--background-primary-alt);
+  --link-decoration: underline;
+  --link-decoration-hover: none;
+  --link-external-color: var(--text-on-accent);
+  --link-external-color-hover: var(--background-primary-alt);
+  --link-external-decoration: underline;
+  --link-external-decoration-hover: none;
 }
 
 .search-result-file-matched-text {
