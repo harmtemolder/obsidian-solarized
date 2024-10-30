@@ -155,6 +155,167 @@
   --background-modifier-border-focus: var(--interactive-accent);
 }
 
+/* @settings
+name: Solarized color overrides
+id: solarized-theme-override
+settings:
+  - id: section-base
+    title: Base Tones
+    type: heading
+    level: 2
+    collapsed: true
+
+  - id: baseO3
+    title: Base03
+    type: variable-color
+    format: rgb
+    default: '#002b36'
+    alt-format:
+    - id: base03
+      format: hex
+
+  - id: baseO2
+    title: Base02
+    type: variable-color
+    format: rgb
+    default: '#073642'
+    alt-format:
+    - id: base02
+      format: hex
+
+  - id: baseO1
+    title: Base01
+    type: variable-color
+    format: rgb
+    default: '#586e75'
+    alt-format:
+    - id: base01
+      format: hex
+
+  - id: baseO0
+    title: Base00
+    type: variable-color
+    format: rgb
+    default: '#657b83'
+    alt-format:
+    - id: base00
+      format: hex
+
+  - id: baseO
+    title: Base0
+    type: variable-color
+    format: rgb
+    default: '#839496'
+    alt-format:
+    - id: base0
+      format: hex
+
+  - id: base1
+    title: Base1
+    type: variable-color
+    format: rgb
+    default: '#93a1a1'
+    alt-format:
+    - id: base1
+      format: hex
+
+  - id: base2
+    title: Base2
+    type: variable-color
+    format: rgb
+    default: '#eee8d5'
+    alt-format:
+    - id: base2
+      format: hex
+
+  - id: base3
+    title: Base3
+    type: variable-color
+    format: rgb
+    default: '#fdf6e3'
+    alt-format:
+    - id: base3
+      format: hex
+
+  - id: section-accent
+    title: Accent Colors
+    type: heading
+    level: 2
+    collapsed: true
+
+  - id: yellow
+    title: Yellow
+    type: variable-color
+    format: rgb
+    default: '#b58900'
+    alt-format:
+    - id: yellow
+      format: hex
+
+  - id: orange
+    title: Orange
+    type: variable-color
+    format: rgb
+    default: '#cb4b16'
+    alt-format:
+    - id: orange
+      format: hex
+
+  - id: red
+    title: Red
+    type: variable-color
+    format: rgb
+    default: '#dc322f'
+    alt-format:
+    - id: red
+      format: hex
+
+  - id: magenta
+    title: Magenta
+    type: variable-color
+    format: rgb
+    default: '#d33682'
+    alt-format:
+    - id: magenta
+      format: hex
+
+  - id: violet
+    title: Violet
+    type: variable-color
+    format: rgb
+    default: '#6c71c4'
+    alt-format:
+    - id: violet
+      format: hex
+
+  - id: blue
+    title: Blue
+    type: variable-color
+    format: rgb
+    default: '#268bd2'
+    alt-format:
+    - id: blue
+      format: hex
+
+  - id: cyan
+    title: Cyan
+    type: variable-color
+    format: rgb
+    default: '#2aa198'
+    alt-format:
+    - id: cyan
+      format: hex
+
+  - id: green
+    title: Green
+    type: variable-color
+    format: rgb
+    default: '#859900'
+    alt-format:
+    - id: green
+      format: hex
+*/
+
 .cm-s-obsidian {
   /* Checkboxes */
   /* Links */
