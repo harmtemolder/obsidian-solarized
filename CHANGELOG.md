@@ -5,13 +5,14 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## Unreleased
+## [1.0.10] - 2024-10-30
 
 ### Fixed
 
 - Correct text color in community plugin and theme browser search results (see [#35](https://github.com/harmtemolder/obsidian-solarized/issues/35))
 - Correct text color in preview mode highlights (see [#35](https://github.com/harmtemolder/obsidian-solarized/issues/35))
 - Make links in editor mode landing selection readable
+- Make inline code in editor mode landing selection stand out
 
 ### Changed
 
@@ -111,6 +112,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Using SCSS instead of plain CSS for cleaner development
 - Overwriting Obsidian's default CSS variables instead of overwriting actual CSS rules, where possible
 
+[1.0.10]: https://github.com/harmtemolder/obsidian-solarized/releases/tag/v1.0.10
 [1.0.9-beta]: https://github.com/harmtemolder/obsidian-solarized/releases/tag/v1.0.9-beta
 [1.0.8-beta]: https://github.com/harmtemolder/obsidian-solarized/releases/tag/v1.0.8-beta
 [1.0.6-beta]: https://github.com/harmtemolder/obsidian-solarized/releases/tag/v1.0.6-beta

@@ -78,6 +78,7 @@
 /* Search results */
 .is-flashing {
   border-radius: unset;
+  --code-normal: var(--text-highlight-bg);
   --link-color: var(--text-on-accent);
   --link-color-hover: var(--background-primary-alt);
   --link-decoration: underline;
