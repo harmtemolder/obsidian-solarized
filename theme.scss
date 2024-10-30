@@ -135,3 +135,14 @@
     box-shadow: 0 0 0 2px var(--color-accent);
   }
 }
+
+/* Community theme and plugin browsers */
+.community-item {
+  &:hover {
+    border-color: var(--color-accent);
+  }
+  .suggestion-highlight {
+    color: var(--text-on-accent);
+    font-weight: unset;
+  }
+}

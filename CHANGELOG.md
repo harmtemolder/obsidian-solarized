@@ -7,6 +7,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## Unreleased
 
+### Fixed
+
+- Correct text color in community plugin and theme browser search results (see [#35](https://github.com/harmtemolder/obsidian-solarized/issues/35))
+
 ### Changed
 
 - Split changelog to separate file
@@ -36,7 +40,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Added
 
 - Highlight active line in editor
-- `.vscode/tasks.json` (see [How to develop](#how-to-develop))
+- `.vscode/tasks.json` (see [How to develop](https://github.com/harmtemolder/obsidian-solarized?tab=readme-ov-file#how-to-develop))
 - Support for [the Dynamic Highlights plugin](https://github.com/nothingislost/obsidian-dynamic-highlights)
   - Yellow highlights to differentiate from other highlights
 
@@ -98,7 +102,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Added
 
-- [Changelog](#changelog)
+- Changelog
 
 ### Changed
 
