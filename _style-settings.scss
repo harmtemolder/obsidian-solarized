@@ -9,10 +9,12 @@ settings:
     title: Colors
     type: heading
     level: 2
+
   - id: colors
     title: Base Tones
     type: heading
     level: 3
+
   - id: base03
     title: base03
     type: variable-color
@@ -21,6 +23,7 @@ settings:
     alt-format:
     - id: base03-rgb
       format: rgb-values
+
   - id: base02
     title: base02
     type: variable-color
@@ -29,6 +32,7 @@ settings:
     alt-format:
     - id: base02-rgb
       format: rgb-values
+
   - id: base01
     title: base01
     type: variable-color
@@ -37,6 +41,7 @@ settings:
     alt-format:
     - id: base01-rgb
       format: rgb-values
+
   - id: base00
     title: base00
     type: variable-color
@@ -45,6 +50,7 @@ settings:
     alt-format:
     - id: base00-rgb
       format: rgb-values
+
   - id: base0
     title: base0
     type: variable-color
@@ -53,6 +59,7 @@ settings:
     alt-format:
     - id: base0-rgb
       format: rgb-values
+
   - id: base1
     title: base1
     type: variable-color
@@ -61,6 +68,7 @@ settings:
     alt-format:
     - id: base1-rgb
       format: rgb-values
+
   - id: base2
     title: base2
     type: variable-color
@@ -69,6 +77,7 @@ settings:
     alt-format:
     - id: base2-rgb
       format: rgb-values
+
   - id: base3
     title: base3
     type: variable-color
@@ -77,10 +86,12 @@ settings:
     alt-format:
     - id: base3-rgb
       format: rgb-values
+
   - id: colors
     title: Accent Colors
     type: heading
     level: 3
+
   - id: yellow
     title: yellow
     type: variable-color
@@ -89,6 +100,7 @@ settings:
     alt-format:
     - id: yellow-rgb
       format: rgb-values
+
   - id: orange
     title: orange
     type: variable-color
@@ -97,6 +109,7 @@ settings:
     alt-format:
     - id: orange-rgb
       format: rgb-values
+
   - id: red
     title: red
     type: variable-color
@@ -105,6 +118,7 @@ settings:
     alt-format:
     - id: red-rgb
       format: rgb-values
+
   - id: magenta
     title: magenta
     type: variable-color
@@ -113,6 +127,7 @@ settings:
     alt-format:
     - id: magenta-rgb
       format: rgb-values
+
   - id: violet
     title: violet
     type: variable-color
@@ -121,6 +136,7 @@ settings:
     alt-format:
     - id: violet-rgb
       format: rgb-values
+
   - id: blue
     title: blue
     type: variable-color
@@ -129,6 +145,7 @@ settings:
     alt-format:
     - id: blue-rgb
       format: rgb-values
+
   - id: cyan
     title: cyan
     type: variable-color
@@ -137,6 +154,7 @@ settings:
     alt-format:
     - id: cyan-rgb
       format: rgb-values
+
   - id: green
     title: green
     type: variable-color
@@ -159,7 +177,6 @@ settings:
 
   - id: active-bg
     title: Current line highlight
-    level: 4
     type: variable-color
     opacity: false
     format: rgb
