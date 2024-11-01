@@ -1,7 +1,7 @@
 // compileOnSave: true, expandedFilenamePattern: $1.css
 
-@import "_colors";
-@import "_variables";
+@use "_colors";
+@use "_variables";
 
 .cm-s-obsidian {
 
@@ -159,5 +159,25 @@
   .suggestion-highlight {
     color: var(--text-on-accent);
     font-weight: unset;
+  }
+}
+
+/* Vimrc Support Plugin */
+$vimrc-colors: (
+  "normal": "var(--blue)",
+  "insert": "var(--green)",
+  "visual": "var(--magenta)",
+  "replace": "var(--red)"
+);
+
+div.status-bar-item.plugin-obsidian-vimrc-support {
+  &.vimrc-support-vim-mode {
+    color: var(--text-on-accent);
+
+    @each $mode, $color in $vimrc-colors {
+      &[data-vim-mode="#{$mode}"] {
+        background-color: #{$color};
+      }
+    }
   }
 }

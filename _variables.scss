@@ -26,8 +26,6 @@
 
   /* File explorer */
   --active-bg: var(--nav-item-background-active);
-  // --active-bg: hsla(var(--accent-h), var(--accent-s), var(--accent-l), 0.1);
-  // --nav-item-background-active: var(--active-bg);
 }
 
 .theme-light {
@@ -56,7 +54,7 @@
   --text-faint: var(--base1);
 
   /* File explorer */
-  --active-bg: hsla(var(--accent-h), var(--accent-s), var(--accent-l), 0.1);
+  --active-bg: rgba(var(--color-accent-rgb), 0.1);
   --nav-item-background-active: var(--active-bg);
 }
 
@@ -67,15 +65,15 @@
   --color-red: var(--red);
   --color-green-rgb: var(--green-rgb);
   --color-green: var(--green);
+  --color-orange-rgb: var(--orange-rgb);
   --color-orange: var(--orange);
   --color-yellow: var(--yellow);
   --color-cyan: var(--cyan);
   --color-blue: var(--blue);
   --color-purple: var(--violet);
   --color-pink: var(--magenta);
-  --accent-h: 18;
-  --accent-s: 80%;
-  --accent-l: 44%;
+  --color-accent-rgb: var(--color-orange-rgb);
+  --color-accent: var(--color-orange);
   --interactive-accent: var(--color-accent);
 
   /* Background */
@@ -84,6 +82,7 @@
 
   /* Text */
   --text-on-accent: var(--background-primary);
+  --text-selection: rgba(var(--color-accent-rgb), 0.2);
 
   /* Headings */
   --text-title: var(--cyan);
