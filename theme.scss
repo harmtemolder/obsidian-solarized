@@ -161,3 +161,23 @@
     font-weight: unset;
   }
 }
+
+/* Vimrc Support Plugin */
+$vimrc-colors: (
+  "normal": "var(--blue)",
+  "insert": "var(--green)",
+  "visual": "var(--magenta)",
+  "replace": "var(--red)"
+);
+
+div.status-bar-item.plugin-obsidian-vimrc-support {
+  &.vimrc-support-vim-mode {
+    color: var(--text-on-accent);
+
+  @each $mode, $color in $vimrc-colors {
+      &[data-vim-mode="#{$mode}"] {
+      background-color: #{$color};
+      }
+    }
+  }
+}

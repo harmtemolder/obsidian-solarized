@@ -290,4 +290,21 @@
   font-weight: unset;
 }
 
+/* Vimrc Support Plugin */
+div.status-bar-item.plugin-obsidian-vimrc-support.vimrc-support-vim-mode {
+  color: var(--text-on-accent);
+}
+div.status-bar-item.plugin-obsidian-vimrc-support.vimrc-support-vim-mode[data-vim-mode=normal] {
+  background-color: var(--blue);
+}
+div.status-bar-item.plugin-obsidian-vimrc-support.vimrc-support-vim-mode[data-vim-mode=insert] {
+  background-color: var(--green);
+}
+div.status-bar-item.plugin-obsidian-vimrc-support.vimrc-support-vim-mode[data-vim-mode=visual] {
+  background-color: var(--magenta);
+}
+div.status-bar-item.plugin-obsidian-vimrc-support.vimrc-support-vim-mode[data-vim-mode=replace] {
+  background-color: var(--red);
+}
+
 /*# sourceMappingURL=theme.css.map */

@@ -20,8 +20,8 @@ $colors: (
 );
 
 :root {
-@each $color, $value in $colors {
-  --#{$color}-rgb: #{$value};
-  --#{$color}: rgb(var(--#{$color}-rgb));
-}
+  @each $color, $value in $colors {
+    --#{$color}-rgb: #{$value};
+    --#{$color}: rgb(var(--#{$color}-rgb));
+  }
 }
