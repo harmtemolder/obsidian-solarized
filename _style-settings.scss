@@ -173,12 +173,12 @@ settings:
     title: Application Accent color
     type: variable-color
     format: rgb
-    default: rgb(203, 75, 22)
+    default: rgb(#{map.get$colors, "orange")})
 
   - id: active-bg
     title: Current line highlight
     type: variable-color
     opacity: true
     format: rgb
-    default: rgb(203, 75, 22, 0.1)
+    default: rgb(#{map.get$colors, "orange")})
 */
