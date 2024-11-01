@@ -5,6 +5,17 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.1.0] - 2024-11-01
+
+### Added
+
+- Add support for [style settings plugin](https://github.com/mgmeyers/obsidian-style-settings)
+- Add support for [vimrc support plugin](https://github.com/esm7/obsidian-vimrc-support)
+
+### Changed
+
+- Construct colors using SCSS map
+
 ## [1.0.10] - 2024-10-30
 
 ### Fixed
@@ -112,6 +123,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Using SCSS instead of plain CSS for cleaner development
 - Overwriting Obsidian's default CSS variables instead of overwriting actual CSS rules, where possible
 
+[1.1.0]: https://github.com/harmtemolder/obsidian-solarized/releases/tag/v1.1.0
 [1.0.10]: https://github.com/harmtemolder/obsidian-solarized/releases/tag/v1.0.10
 [1.0.9-beta]: https://github.com/harmtemolder/obsidian-solarized/releases/tag/v1.0.9-beta
 [1.0.8-beta]: https://github.com/harmtemolder/obsidian-solarized/releases/tag/v1.0.8-beta
