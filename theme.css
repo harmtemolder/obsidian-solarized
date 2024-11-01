@@ -36,7 +36,7 @@
 /* NOTE Tried with @each, but that didn't work within comment */
 /*! @settings
 name: Solarized Color Settings
-id: solarized-color-settings
+id: solarized-color-settingsz
 settings:
   - id: colors
     title: Colors
@@ -305,6 +305,7 @@ settings:
 /*! @settings
 name: Solarized Variable Settings
 id: solarized-variable-settings
+level: 2
 settings:
   - id: misc
     title: Miscellaneous
@@ -476,4 +477,6 @@ div.status-bar-item.plugin-obsidian-vimrc-support.vimrc-support-vim-mode[data-vi
 }
 div.status-bar-item.plugin-obsidian-vimrc-support.vimrc-support-vim-mode[data-vim-mode=replace] {
   background-color: var(--red);
-}/*# sourceMappingURL=theme.css.map */
+}
+
+/*# sourceMappingURL=theme.css.map */

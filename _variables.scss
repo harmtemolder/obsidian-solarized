@@ -140,28 +140,3 @@
   /* Focus border */
   --background-modifier-border-focus: var(--interactive-accent);
 }
-
-/*! @settings
-name: Solarized Variable Settings
-id: solarized-variable-settings
-settings:
-  - id: misc
-    title: Miscellaneous
-    type: heading
-    level: 2
-
-  - id: active-bg
-    title: Highlight current line
-    level: 3
-    type: variable-color
-    opacity: true
-    format: rgb
-    default: rgb(203, 75, 22, 0.1)
-
-  - id: color-accent
-    title: Accent color
-    type: variable-color
-    format: rgb
-    default: rgb(203, 75, 22)
-
-*/
