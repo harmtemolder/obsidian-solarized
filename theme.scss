@@ -1,7 +1,7 @@
 // compileOnSave: true, expandedFilenamePattern: $1.css
 
-@use "_colors";
-@use "_variables";
+@import "_colors";
+@import "_variables";
 
 .cm-s-obsidian {
 
@@ -174,9 +174,9 @@ div.status-bar-item.plugin-obsidian-vimrc-support {
   &.vimrc-support-vim-mode {
     color: var(--text-on-accent);
 
-    @each $mode, $color in $vimrc-colors {
+  @each $mode, $color in $vimrc-colors {
       &[data-vim-mode="#{$mode}"] {
-        background-color: #{$color};
+      background-color: #{$color};
       }
     }
   }

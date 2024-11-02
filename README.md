@@ -24,7 +24,6 @@ Some outtakes from [Ethan Schoonover's full write-up](https://ethanschoonover.co
 - This theme respects Obsidian's accent color setting, so you can set that to any of [Solarized's accent colors](https://ethanschoonover.com/solarized/#the-values). This is then used to color UI elements and checkboxes, among others.
 - It also works with [obsidian-dynamic-highlights](https://github.com/nothingislost/obsidian-dynamic-highlights).
 - It colors the vim mode shown in the status bar by [obsidian-vimrc-support](https://github.com/esm7/obsidian-vimrc-support). This works best if you set the display prompt in that plugin's settings to `NORMAL`, `INSERT`, etc. instead of the traffic light emoji.
-- You can tweak any of the colors using [obsidian-style-settings](https://github.com/mgmeyers/obsidian-style-settings).
 
 ## Screenshots
 
