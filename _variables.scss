@@ -26,8 +26,6 @@
 
   /* File explorer */
   --active-bg: var(--nav-item-background-active);
-  // --active-bg: hsla(var(--accent-h), var(--accent-s), var(--accent-l), 0.1);
-  // --nav-item-background-active: var(--active-bg);
 }
 
 .theme-light {
@@ -62,20 +60,6 @@
 
 .theme-dark,
 .theme-light {
-  /* Overwrite default theme colors */
-  --color-red-rgb: var(--red-rgb);
-  --color-red: var(--red);
-  --color-green-rgb: var(--green-rgb);
-  --color-green: var(--green);
-  --color-orange: var(--orange);
-  --color-yellow: var(--yellow);
-  --color-cyan: var(--cyan);
-  --color-blue: var(--blue);
-  --color-purple: var(--violet);
-  --color-pink: var(--magenta);
-  --accent-h: 18;
-  --accent-s: 80%;
-  --accent-l: 44%;
   --interactive-accent: var(--color-accent);
 
   /* Background */
@@ -86,7 +70,7 @@
   --text-on-accent: var(--background-primary);
 
   /* Headings */
-  --text-title: var(--cyan);
+  --text-title: var(--color-cyan);
   --heading-formatting: var(--text-title);
   --h1-color: var(--text-title);
   --h2-color: var(--text-title);
@@ -96,11 +80,11 @@
   --h6-color: var(--text-title);
 
   /* Links */
-  --link-color: var(--blue);
+  --link-color: var(--color-blue);
   --link-color-hover: var(--link-color);
   --link-decoration: none;
   --link-decoration-hover: underline;
-  --link-external-color: var(--violet);
+  --link-external-color: var(--color-purple);
   --link-external-color-hover: var(--link-external-color);
   --link-external-decoration: none;
   --link-external-decoration-hover: underline;
@@ -111,16 +95,16 @@
 
   /* Code */
   --code-normal: var(--text-normal);
-  --code-comment: var(--cyan);
-  --code-function: var(--blue);
-  --code-important: var(--orange);
-  --code-keyword: var(--green);
+  --code-comment: var(--color-cyan);
+  --code-function: var(--color-blue);
+  --code-important: var(--color-orange);
+  --code-keyword: var(--color-green);
   --code-operator: var(--code-normal);
   --code-property: var(--code-normal);
   --code-punctuation: var(--code-normal);
-  --code-string: var(--cyan);
+  --code-string: var(--color-cyan);
   --code-tag: var(--red);
-  --code-value: var(--magenta);
+  --code-value: var(--color-pink);
 
   /* Tables */
   --table-header-size: inherit;

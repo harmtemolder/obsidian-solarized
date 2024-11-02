@@ -1,7 +1,7 @@
 // compileOnSave: true, expandedFilenamePattern: $1.css
 
-@import "_colors";
-@import "_variables";
+@use "_colors";
+@use "_variables";
 
 .cm-s-obsidian {
 
@@ -39,7 +39,7 @@
     box-shadow: unset;
     mix-blend-mode: unset;
     border-radius: unset;
-    background: var(--green);
+    background: var(--color-green);
     color: var(--text-on-accent);
     padding: 2px 0;
   }
@@ -95,6 +95,7 @@
 }
 
 .markdown-rendered {
+
   /* Unresolved links in preview mode */
   .internal-link.is-unresolved:hover {
     color: var(--link-unresolved-color-hover);
@@ -131,7 +132,7 @@
 .cm-matched-word,
 .cm-current-string,
 .cm-matched-string {
-  background: var(--yellow);
+  background: var(--color-yellow);
   color: var(--text-on-accent);
   text-decoration: none;
   padding: 2px 0;
@@ -156,6 +157,7 @@
   &:hover {
     border-color: var(--color-accent);
   }
+
   .suggestion-highlight {
     color: var(--text-on-accent);
     font-weight: unset;
@@ -164,9 +166,9 @@
 
 /* Vimrc Support Plugin */
 $vimrc-colors: (
-  "normal": "var(--blue)",
-  "insert": "var(--green)",
-  "visual": "var(--magenta)",
+  "normal": "var(--color-blue)",
+  "insert": "var(--color-green)",
+  "visual": "var(--color-pink)",
   "replace": "var(--red)"
 );
 
@@ -174,9 +176,9 @@ div.status-bar-item.plugin-obsidian-vimrc-support {
   &.vimrc-support-vim-mode {
     color: var(--text-on-accent);
 
-  @each $mode, $color in $vimrc-colors {
+    @each $mode, $color in $vimrc-colors {
       &[data-vim-mode="#{$mode}"] {
-      background-color: #{$color};
+        background-color: #{$color};
       }
     }
   }

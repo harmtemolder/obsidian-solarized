@@ -1,27 +1,45 @@
 // compileOnSave: false
 
-$colors: (
-  "base03": "0, 43, 54",
-  "base02": "7, 54, 66",
-  "base01": "88, 110, 117",
-  "base00": "101, 123, 131",
-  "base0": "131, 148, 150",
-  "base1": "147, 161, 161",
-  "base2": "238, 232, 213",
-  "base3": "253, 246, 227",
-  "yellow": "181, 137, 0",
-  "orange": "203, 75, 22",
-  "red": "220, 50, 47",
-  "magenta": "211, 54, 130",
-  "violet": "108, 113, 196",
-  "blue": "38, 139, 210",
-  "cyan": "42, 161, 152",
-  "green": "133, 153, 0"
+@use 'sass:color';
+@use "sass:map";
+
+$tones: (
+  "base03": 0 43 54,
+  "base02": 7 54 66,
+  "base01": 88 110 117,
+  "base00": 101 123 131,
+  "base0": 131 148 150,
+  "base1": 147 161 161,
+  "base2": 238 232 213,
+  "base3": 253 246 227
 );
 
-:root {
-  @each $color, $value in $colors {
-    --#{$color}-rgb: #{$value};
-    --#{$color}: rgb(var(--#{$color}-rgb));
+$colors: (
+  "yellow": 181 137 0,
+  "orange": 203 75 22,
+  "red": 220 50 47,
+  "pink": 211 54 130, // = magenta
+  "purple": 108 113 196, // = violet
+  "blue": 38 139 210,
+  "cyan": 42 161 152,
+  "green": 133 153 0
+);
+
+$accent: "orange";
+
+.theme-dark,
+.theme-light {
+  /* Overwrite default theme colors */
+  @each $tone, $value in $tones {
+    --#{$tone}: #{rgb($value)};
   }
+
+  @each $color, $value in $colors {
+    --color-#{$color}: #{rgb($value)};
+    --color-#{$color}-rgb: #{red(rgb($value))}, #{green(rgb($value))}, #{blue(rgb($value))};
+  }
+
+  --accent-h: #{hue(rgb(map.get($colors, $accent)))};
+  --accent-s: #{saturation(rgb(map.get($colors, $accent)))};
+  --accent-l: #{lightness(rgb(map.get($colors, $accent)))};
 }

@@ -1,38 +1,181 @@
-:root {
-  --base03-rgb: 0, 43, 54;
-  --base03: rgb(var(--base03-rgb));
-  --base02-rgb: 7, 54, 66;
-  --base02: rgb(var(--base02-rgb));
-  --base01-rgb: 88, 110, 117;
-  --base01: rgb(var(--base01-rgb));
-  --base00-rgb: 101, 123, 131;
-  --base00: rgb(var(--base00-rgb));
-  --base0-rgb: 131, 148, 150;
-  --base0: rgb(var(--base0-rgb));
-  --base1-rgb: 147, 161, 161;
-  --base1: rgb(var(--base1-rgb));
-  --base2-rgb: 238, 232, 213;
-  --base2: rgb(var(--base2-rgb));
-  --base3-rgb: 253, 246, 227;
-  --base3: rgb(var(--base3-rgb));
-  --yellow-rgb: 181, 137, 0;
-  --yellow: rgb(var(--yellow-rgb));
-  --orange-rgb: 203, 75, 22;
-  --orange: rgb(var(--orange-rgb));
-  --red-rgb: 220, 50, 47;
-  --red: rgb(var(--red-rgb));
-  --magenta-rgb: 211, 54, 130;
-  --magenta: rgb(var(--magenta-rgb));
-  --violet-rgb: 108, 113, 196;
-  --violet: rgb(var(--violet-rgb));
-  --blue-rgb: 38, 139, 210;
-  --blue: rgb(var(--blue-rgb));
-  --cyan-rgb: 42, 161, 152;
-  --cyan: rgb(var(--cyan-rgb));
-  --green-rgb: 133, 153, 0;
-  --green: rgb(var(--green-rgb));
+.theme-dark,
+.theme-light {
+  /* Overwrite default theme colors */
+  --base03: rgb(0, 43, 54);
+  --base02: rgb(7, 54, 66);
+  --base01: rgb(88, 110, 117);
+  --base00: rgb(101, 123, 131);
+  --base0: rgb(131, 148, 150);
+  --base1: rgb(147, 161, 161);
+  --base2: rgb(238, 232, 213);
+  --base3: rgb(253, 246, 227);
+  --color-yellow: rgb(181, 137, 0);
+  --color-yellow-rgb: 181, 137, 0;
+  --color-orange: rgb(203, 75, 22);
+  --color-orange-rgb: 203, 75, 22;
+  --color-red: rgb(220, 50, 47);
+  --color-red-rgb: 220, 50, 47;
+  --color-pink: rgb(211, 54, 130);
+  --color-pink-rgb: 211, 54, 130;
+  --color-purple: rgb(108, 113, 196);
+  --color-purple-rgb: 108, 113, 196;
+  --color-blue: rgb(38, 139, 210);
+  --color-blue-rgb: 38, 139, 210;
+  --color-cyan: rgb(42, 161, 152);
+  --color-cyan-rgb: 42, 161, 152;
+  --color-green: rgb(133, 153, 0);
+  --color-green-rgb: 133, 153, 0;
+  --accent-h: 17.5690607735deg;
+  --accent-s: 80.4444444444%;
+  --accent-l: 44.1176470588%;
 }
 
+/* NOTE Tried with @each, but that didn't work within comment */
+/*! @settings
+name: Solarized Theme Settings
+id: solarized-theme-settings
+settings:
+  - id: colors
+    title: Colors
+    type: heading
+    level: 2
+  - id: colors
+    title: Base Tones
+    type: heading
+    level: 3
+  - id: base03
+    title: base03
+    type: variable-color
+    format: rgb
+    default: rgb(0 43 54)
+    alt-format:
+    - id: base03-rgb
+      format: rgb-values
+  - id: base02
+    title: base02
+    type: variable-color
+    format: rgb
+    default: rgb(7 54 66)
+    alt-format:
+    - id: base02-rgb
+      format: rgb-values
+  - id: base01
+    title: base01
+    type: variable-color
+    format: rgb
+    default: rgb(88 110 117)
+    alt-format:
+    - id: base01-rgb
+      format: rgb-values
+  - id: base00
+    title: base00
+    type: variable-color
+    format: rgb
+    default: rgb(101 123 131)
+    alt-format:
+    - id: base00-rgb
+      format: rgb-values
+  - id: base0
+    title: base0
+    type: variable-color
+    format: rgb
+    default: rgb(131 148 150)
+    alt-format:
+    - id: base0-rgb
+      format: rgb-values
+  - id: base1
+    title: base1
+    type: variable-color
+    format: rgb
+    default: rgb(147 161 161)
+    alt-format:
+    - id: base1-rgb
+      format: rgb-values
+  - id: base2
+    title: base2
+    type: variable-color
+    format: rgb
+    default: rgb(238 232 213)
+    alt-format:
+    - id: base2-rgb
+      format: rgb-values
+  - id: base3
+    title: base3
+    type: variable-color
+    format: rgb
+    default: rgb(253 246 227)
+    alt-format:
+    - id: base3-rgb
+      format: rgb-values
+  - id: colors
+    title: Accent Colors
+    type: heading
+    level: 3
+  - id: yellow
+    title: yellow
+    type: variable-color
+    format: rgb
+    default: rgb(181 137 0)
+    alt-format:
+    - id: yellow-rgb
+      format: rgb-values
+  - id: orange
+    title: orange
+    type: variable-color
+    format: rgb
+    default: rgb(203 75 22)
+    alt-format:
+    - id: orange-rgb
+      format: rgb-values
+  - id: red
+    title: red
+    type: variable-color
+    format: rgb
+    default: rgb(220 50 47)
+    alt-format:
+    - id: red-rgb
+      format: rgb-values
+  - id: magenta
+    title: magenta
+    type: variable-color
+    format: rgb
+    default: rgb()
+    alt-format:
+    - id: magenta-rgb
+      format: rgb-values
+  - id: violet
+    title: violet
+    type: variable-color
+    format: rgb
+    default: rgb()
+    alt-format:
+    - id: violet-rgb
+      format: rgb-values
+  - id: blue
+    title: blue
+    type: variable-color
+    format: rgb
+    default: rgb(38 139 210)
+    alt-format:
+    - id: blue-rgb
+      format: rgb-values
+  - id: cyan
+    title: cyan
+    type: variable-color
+    format: rgb
+    default: rgb(42 161 152)
+    alt-format:
+    - id: cyan-rgb
+      format: rgb-values
+  - id: green
+    title: green
+    type: variable-color
+    format: rgb
+    default: rgb(133 153 0)
+    alt-format:
+    - id: green-rgb
+      format: rgb-values
+*/
 .theme-dark {
   /* Overwrite default theme colors */
   --color-base-00: #1e1e1e;
@@ -85,20 +228,6 @@
 
 .theme-dark,
 .theme-light {
-  /* Overwrite default theme colors */
-  --color-red-rgb: var(--red-rgb);
-  --color-red: var(--red);
-  --color-green-rgb: var(--green-rgb);
-  --color-green: var(--green);
-  --color-orange: var(--orange);
-  --color-yellow: var(--yellow);
-  --color-cyan: var(--cyan);
-  --color-blue: var(--blue);
-  --color-purple: var(--violet);
-  --color-pink: var(--magenta);
-  --accent-h: 18;
-  --accent-s: 80%;
-  --accent-l: 44%;
   --interactive-accent: var(--color-accent);
   /* Background */
   --background-secondary: var(--background-primary);
@@ -106,7 +235,7 @@
   /* Text */
   --text-on-accent: var(--background-primary);
   /* Headings */
-  --text-title: var(--cyan);
+  --text-title: var(--color-cyan);
   --heading-formatting: var(--text-title);
   --h1-color: var(--text-title);
   --h2-color: var(--text-title);
@@ -115,11 +244,11 @@
   --h5-color: var(--text-title);
   --h6-color: var(--text-title);
   /* Links */
-  --link-color: var(--blue);
+  --link-color: var(--color-blue);
   --link-color-hover: var(--link-color);
   --link-decoration: none;
   --link-decoration-hover: underline;
-  --link-external-color: var(--violet);
+  --link-external-color: var(--color-purple);
   --link-external-color-hover: var(--link-external-color);
   --link-external-decoration: none;
   --link-external-decoration-hover: underline;
@@ -129,16 +258,16 @@
   --link-unresolved-decoration-color: var(--link-unresolved-color);
   /* Code */
   --code-normal: var(--text-normal);
-  --code-comment: var(--cyan);
-  --code-function: var(--blue);
-  --code-important: var(--orange);
-  --code-keyword: var(--green);
+  --code-comment: var(--color-cyan);
+  --code-function: var(--color-blue);
+  --code-important: var(--color-orange);
+  --code-keyword: var(--color-green);
   --code-operator: var(--code-normal);
   --code-property: var(--code-normal);
   --code-punctuation: var(--code-normal);
-  --code-string: var(--cyan);
+  --code-string: var(--color-cyan);
   --code-tag: var(--red);
-  --code-value: var(--magenta);
+  --code-value: var(--color-pink);
   /* Tables */
   --table-header-size: inherit;
   --table-header-weight: var(--font-bold);
@@ -185,7 +314,7 @@
   box-shadow: unset;
   mix-blend-mode: unset;
   border-radius: unset;
-  background: var(--green);
+  background: var(--color-green);
   color: var(--text-on-accent);
   padding: 2px 0;
 }
@@ -265,7 +394,7 @@
 .cm-matched-word,
 .cm-current-string,
 .cm-matched-string {
-  background: var(--yellow);
+  background: var(--color-yellow);
   color: var(--text-on-accent);
   text-decoration: none;
   padding: 2px 0;
@@ -295,13 +424,13 @@ div.status-bar-item.plugin-obsidian-vimrc-support.vimrc-support-vim-mode {
   color: var(--text-on-accent);
 }
 div.status-bar-item.plugin-obsidian-vimrc-support.vimrc-support-vim-mode[data-vim-mode=normal] {
-  background-color: var(--blue);
+  background-color: var(--color-blue);
 }
 div.status-bar-item.plugin-obsidian-vimrc-support.vimrc-support-vim-mode[data-vim-mode=insert] {
-  background-color: var(--green);
+  background-color: var(--color-green);
 }
 div.status-bar-item.plugin-obsidian-vimrc-support.vimrc-support-vim-mode[data-vim-mode=visual] {
-  background-color: var(--magenta);
+  background-color: var(--color-pink);
 }
 div.status-bar-item.plugin-obsidian-vimrc-support.vimrc-support-vim-mode[data-vim-mode=replace] {
   background-color: var(--red);
