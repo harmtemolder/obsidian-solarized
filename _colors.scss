@@ -14,7 +14,7 @@ $tones: (
   "base3": 253 246 227
 );
 
-$colors: (
+$accents: (
   "yellow": 181 137 0,
   "orange": 203 75 22,
   "red": 220 50 47,
@@ -30,16 +30,141 @@ $accent: "orange";
 .theme-dark,
 .theme-light {
   /* Overwrite default theme colors */
-  @each $tone, $value in $tones {
-    --#{$tone}: #{rgb($value)};
+  @each $color, $value in $tones {
+    --#{$color}: #{rgb($value)};
   }
 
-  @each $color, $value in $colors {
+  @each $color, $value in $accents {
     --color-#{$color}: #{rgb($value)};
     --color-#{$color}-rgb: #{red(rgb($value))}, #{green(rgb($value))}, #{blue(rgb($value))};
   }
 
-  --accent-h: #{hue(rgb(map.get($colors, $accent)))};
-  --accent-s: #{saturation(rgb(map.get($colors, $accent)))};
-  --accent-l: #{lightness(rgb(map.get($colors, $accent)))};
+  --accent-h: #{hue(rgb(map.get($accents, $accent)))};
+  --accent-s: #{saturation(rgb(map.get($accents, $accent)))};
+  --accent-l: #{lightness(rgb(map.get($accents, $accent)))};
 }
+
+/*! @settings
+name: Solarized Theme Settings
+id: solarized-theme-settings
+settings:
+  - id: colors
+    title: Colors
+    type: heading
+    level: 2
+  - id: tones
+    title: Base Tones
+    type: heading
+    level: 3
+    collapsed: true
+  - id: base03
+    title: base03
+    type: variable-color
+    format: rgb
+    default: rgb(#{map.get($tones, "base03")})
+  - id: base02
+    title: base02
+    type: variable-color
+    format: rgb
+    default: rgb(#{map.get($tones, "base02")})
+  - id: base01
+    title: base01
+    type: variable-color
+    format: rgb
+    default: rgb(#{map.get($tones, "base01")})
+  - id: base00
+    title: base00
+    type: variable-color
+    format: rgb
+    default: rgb(#{map.get($tones, "base00")})
+  - id: base0
+    title: base0
+    type: variable-color
+    format: rgb
+    default: rgb(#{map.get($tones, "base0")})
+  - id: base1
+    title: base1
+    type: variable-color
+    format: rgb
+    default: rgb(#{map.get($tones, "base1")})
+  - id: base2
+    title: base2
+    type: variable-color
+    format: rgb
+    default: rgb(#{map.get($tones, "base2")})
+  - id: base3
+    title: base3
+    type: variable-color
+    format: rgb
+    default: rgb(#{map.get($tones, "base3")})
+  - id: accents
+    description: "NB This does not override Obsidian's built-in accent color (see Appearance > Accent color)"
+    title: Accent Colors
+    type: heading
+    level: 3
+    collapsed: true
+  - id: color-yellow
+    title: yellow
+    type: variable-color
+    format: rgb
+    default: rgb(#{map.get($accents, "yellow")})
+    alt-format:
+    - id: color-yellow-rgb
+      format: rgb-values
+  - id: color-orange
+    title: orange
+    type: variable-color
+    format: rgb
+    default: rgb(#{map.get($accents, "orange")})
+    alt-format:
+    - id: color-orange-rgb
+      format: rgb-values
+  - id: color-red
+    title: red
+    type: variable-color
+    format: rgb
+    default: rgb(#{map.get($accents, "red")})
+    alt-format:
+    - id: color-red-rgb
+      format: rgb-values
+  - id: color-pink
+    title: pink
+    type: variable-color
+    format: rgb
+    default: rgb(#{map.get($accents, "pink")})
+    alt-format:
+    - id: color-pink-rgb
+      format: rgb-values
+  - id: color-purple
+    title: purple
+    type: variable-color
+    format: rgb
+    default: rgb(#{map.get($accents, "purple")})
+    alt-format:
+    - id: color-purple-rgb
+      format: rgb-values
+  - id: color-blue
+    title: blue
+    type: variable-color
+    format: rgb
+    default: rgb(#{map.get($accents, "blue")})
+    alt-format:
+    - id: color-blue-rgb
+      format: rgb-values
+  - id: color-cyan
+    title: cyan
+    type: variable-color
+    format: rgb
+    default: rgb(#{map.get($accents, "cyan")})
+    alt-format:
+    - id: color-cyan-rgb
+      format: rgb-values
+  - id: color-green
+    title: green
+    type: variable-color
+    format: rgb
+    default: rgb(#{map.get($accents, "green")})
+    alt-format:
+    - id: color-green-rgb
+      format: rgb-values
+*/

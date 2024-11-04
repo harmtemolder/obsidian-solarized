@@ -5,17 +5,20 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [1.1.1] - ?
+## [1.1.1] - 2024-11-04
 
 ### Fixed
 
 - Fix support for Obsidian's built-in accent color
 
+### Added
+
+- Add support for [style settings plugin](https://github.com/mgmeyers/obsidian-style-settings)
+
 ## [1.1.0] - 2024-11-01
 
 ### Added
 
-- Add support for [style settings plugin](https://github.com/mgmeyers/obsidian-style-settings)
 - Add support for [vimrc support plugin](https://github.com/esm7/obsidian-vimrc-support)
 
 ### Changed
