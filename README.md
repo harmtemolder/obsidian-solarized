@@ -8,7 +8,6 @@ If anything is not working for you, please let me know [here](https://github.com
 
 [^1]: Older versions of Obsidian might still be able to use the old `obsidian.css`, but there won't be any support going forward.
 
-
 ## About Solarized
 
 Some outtakes from [Ethan Schoonover's full write-up](https://ethanschoonover.com/solarized/#features):
@@ -43,7 +42,13 @@ Find this theme in the Obsidian's community themes browser under Settings > Appe
 
 ## How to develop
 
-Make changes in the `scss` files and compile `theme.scss` into `theme.css` using something like [dart-sass](https://sass-lang.com/dart-sass/).
+Make changes in the `scss` files and compile `theme.scss` into `theme.css` using something like [dart-sass](https://sass-lang.com/dart-sass/):
+
+```sh
+sass theme.scss theme.css
+```
+
+Add `--watch` if you want.
 
 I use the `.vscode/tasks.json` to compile with <kbd>ctrl</kbd>+<kbd>shift</kbd>+<kbd>B</kbd> in [VSCodium](https://github.com/VSCodium/vscodium#readme).
 
