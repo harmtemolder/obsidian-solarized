@@ -414,4 +414,9 @@ div.status-bar-item.plugin-obsidian-vimrc-support.vimrc-support-vim-mode[data-vi
   background-color: var(--red);
 }
 
+/* Mermaid */
+.mermaid tspan {
+  fill: var(--text-on-accent);
+}
+
 /*# sourceMappingURL=theme.css.map */

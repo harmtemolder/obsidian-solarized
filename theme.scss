@@ -183,3 +183,10 @@ div.status-bar-item.plugin-obsidian-vimrc-support {
     }
   }
 }
+
+/* Mermaid */
+.mermaid {
+  tspan {
+    fill: var(--text-on-accent);
+  }
+}
