@@ -176,6 +176,8 @@ settings:
   --text-faint: var(--base01);
   /* File explorer */
   --active-bg: var(--nav-item-background-active);
+  /* Hashtags */
+  --tag-background: hsla(var(--interactive-accent-hsl), 0.2);
 }
 
 .theme-light {
@@ -202,6 +204,8 @@ settings:
   /* File explorer */
   --active-bg: hsla(var(--accent-h), var(--accent-s), var(--accent-l), 0.1);
   --nav-item-background-active: var(--active-bg);
+  /* Hashtags */
+  --tag-background: hsla(var(--interactive-accent-hsl), 0.1);
 }
 
 .theme-dark,
@@ -258,6 +262,7 @@ settings:
   --checkbox-border-color-hover: var(--interactive-accent-hover);
   /* Hashtags */
   --tag-padding-x: var(--tag-padding-y);
+  --tag-color: var(--color-accent);
   /* Focus border */
   --background-modifier-border-focus: var(--interactive-accent);
 }
