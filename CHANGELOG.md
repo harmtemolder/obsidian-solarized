@@ -5,6 +5,16 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.1.3] - 2024-12-21
+
+### Fixed
+
+- Fix [#42 No distinction between existing, non-existing notes and regular text](https://github.com/harmtemolder/obsidian-solarized/issues/42)
+
+### Changed
+
+- Color hashtags in dark mode
+
 ## [1.1.2] - 2024-12-10
 
 ### Fixed
@@ -142,6 +152,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Using SCSS instead of plain CSS for cleaner development
 - Overwriting Obsidian's default CSS variables instead of overwriting actual CSS rules, where possible
 
+[1.1.3]: https://github.com/harmtemolder/obsidian-solarized/releases/tag/v1.1.3
 [1.1.2]: https://github.com/harmtemolder/obsidian-solarized/releases/tag/v1.1.2
 [1.1.1]: https://github.com/harmtemolder/obsidian-solarized/releases/tag/v1.1.1
 [1.1.0]: https://github.com/harmtemolder/obsidian-solarized/releases/tag/v1.1.0

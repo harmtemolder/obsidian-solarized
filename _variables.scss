@@ -94,7 +94,7 @@
   --link-external-color-hover: var(--link-external-color);
   --link-external-decoration: none;
   --link-external-decoration-hover: underline;
-  --link-unresolved-color: var(--red);
+  --link-unresolved-color: var(--color-red);
   --link-unresolved-color-hover: var(--link-unresolved-color);
   --link-unresolved-opacity: unset;
   --link-unresolved-decoration-color: var(--link-unresolved-color);
@@ -109,7 +109,7 @@
   --code-property: var(--code-normal);
   --code-punctuation: var(--code-normal);
   --code-string: var(--color-cyan);
-  --code-tag: var(--red);
+  --code-tag: var(--color-red);
   --code-value: var(--color-pink);
 
   /* Tables */
