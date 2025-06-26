@@ -210,7 +210,10 @@ settings:
 
 .theme-dark,
 .theme-light {
+  /* UI elements */
   --interactive-accent: var(--color-accent);
+  --interactive-normal: var(--background-primary-alt);
+  --interactive-hover: var(--background-primary);
   /* Background */
   --background-secondary: var(--background-primary);
   --background-secondary-alt: var(--background-primary-alt);
@@ -422,6 +425,13 @@ div.status-bar-item.plugin-obsidian-vimrc-support.vimrc-support-vim-mode[data-vi
 /* Mermaid */
 .mermaid tspan {
   fill: var(--text-on-accent);
+}
+
+/* Buttons */
+@media (hover: hover) {
+  button.mod-cta:hover {
+    color: var(--interactive-accent);
+  }
 }
 
 /*# sourceMappingURL=theme.css.map */

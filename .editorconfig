@@ -1,8 +1,18 @@
-[*.css, *.scss]
+root = true
+
+[*]
 charset = utf-8
 end_of_line = lf
-indent_size = 4
+indent_size = 2
 indent_style = space
 insert_final_newline = true
 max_line_length = 80
+quote_style = single
 trim_trailing_whitespace = true
+
+[*.json]
+indent_style = tab
+quote_style = double
+
+[{*.scss,*.css}]
+quote_style = double

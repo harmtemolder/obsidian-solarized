@@ -1,7 +1,6 @@
 // compileOnSave: false
 
 .theme-dark {
-
   /* Overwrite default theme colors */
   --color-base-00: #1e1e1e;
   --color-base-10: #242424;
@@ -32,7 +31,6 @@
 }
 
 .theme-light {
-
   /* Overwrite default theme colors */
   --color-base-00: var(--base2);
   --color-base-05: #fcfcfc;
@@ -66,7 +64,10 @@
 
 .theme-dark,
 .theme-light {
+  /* UI elements */
   --interactive-accent: var(--color-accent);
+  --interactive-normal: var(--background-primary-alt);
+  --interactive-hover: var(--background-primary);
 
   /* Background */
   --background-secondary: var(--background-primary);

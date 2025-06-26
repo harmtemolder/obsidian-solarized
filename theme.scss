@@ -4,7 +4,6 @@
 @use "_variables";
 
 .cm-s-obsidian {
-
   /* Checkboxes */
   span.cm-formatting-task {
     color: var(--checkbox-color);
@@ -95,7 +94,6 @@
 }
 
 .markdown-rendered {
-
   /* Unresolved links in preview mode */
   .internal-link.is-unresolved:hover {
     color: var(--link-unresolved-color-hover);
@@ -119,7 +117,6 @@
 
 /* Hashtags */
 .cm-hashtag {
-
   &.cm-hashtag-begin,
   &.cm-hashtag-end {
     border: unset;
@@ -138,16 +135,14 @@
   padding: 2px 0;
 }
 
-
 /* File explorer */
 .is-flashing {
   color: var(--text-on-accent) !important;
 }
 
 .workspace-leaf.mod-active {
-
-  .nav-folder.has-focus>.nav-folder-title,
-  .nav-file.has-focus>.nav-file-title {
+  .nav-folder.has-focus > .nav-folder-title,
+  .nav-file.has-focus > .nav-file-title {
     box-shadow: 0 0 0 2px var(--color-accent);
   }
 }
@@ -169,7 +164,7 @@ $vimrc-colors: (
   "normal": "var(--color-blue)",
   "insert": "var(--color-green)",
   "visual": "var(--color-pink)",
-  "replace": "var(--red)"
+  "replace": "var(--red)",
 );
 
 div.status-bar-item.plugin-obsidian-vimrc-support {
@@ -188,5 +183,12 @@ div.status-bar-item.plugin-obsidian-vimrc-support {
 .mermaid {
   tspan {
     fill: var(--text-on-accent);
+  }
+}
+
+/* Buttons */
+@media (hover: hover) {
+  button.mod-cta:hover {
+    color: var(--interactive-accent);
   }
 }

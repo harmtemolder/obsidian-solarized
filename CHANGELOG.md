@@ -5,6 +5,14 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## Unreleased
+
+## [1.1.4] - 2025-06-26
+
+### Fixed
+
+- Fix [Button hover colour is the same as text colour #43](https://github.com/harmtemolder/obsidian-solarized/issues/43)
+
 ## [1.1.3] - 2024-12-21
 
 ### Fixed
@@ -152,6 +160,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Using SCSS instead of plain CSS for cleaner development
 - Overwriting Obsidian's default CSS variables instead of overwriting actual CSS rules, where possible
 
+[1.1.4]: https://github.com/harmtemolder/obsidian-solarized/releases/tag/v1.1.4
 [1.1.3]: https://github.com/harmtemolder/obsidian-solarized/releases/tag/v1.1.3
 [1.1.2]: https://github.com/harmtemolder/obsidian-solarized/releases/tag/v1.1.2
 [1.1.1]: https://github.com/harmtemolder/obsidian-solarized/releases/tag/v1.1.1
