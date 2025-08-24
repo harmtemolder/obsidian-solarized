@@ -36,12 +36,12 @@ $accent: "orange";
 
   @each $color, $value in $accents {
     --color-#{$color}: #{rgb($value)};
-    --color-#{$color}-rgb: #{red(rgb($value))}, #{green(rgb($value))}, #{blue(rgb($value))};
+    --color-#{$color}-rgb: #{color.channel(rgb($value), "red", $space: rgb)}, #{color.channel(rgb($value), "green", $space: rgb)}, #{color.channel(rgb($value), "blue", $space: rgb)};
   }
 
-  --accent-h: #{hue(rgb(map.get($accents, $accent)))};
-  --accent-s: #{saturation(rgb(map.get($accents, $accent)))};
-  --accent-l: #{lightness(rgb(map.get($accents, $accent)))};
+  --accent-h: #{color.channel(rgb(map.get($accents, $accent)), "hue", $space: hsl)};
+  --accent-s: #{color.channel(rgb(map.get($accents, $accent)), "saturation", $space: hsl)};
+  --accent-l: #{color.channel(rgb(map.get($accents, $accent)), "lightness", $space: hsl)};
 }
 
 /*! @settings
