@@ -48,6 +48,11 @@ $accent: "orange";
 name: Solarized Theme Settings
 id: solarized-theme-settings
 settings:
+  - id: active-line-highlight
+    title: Highlight active line
+    description: Adds active-line-highlight to the body element
+    type: class-toggle
+    default: True
   - id: colors
     title: Colors
     type: heading
