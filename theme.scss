@@ -107,11 +107,13 @@
 }
 
 /* Highlight current line */
-.cm-active {
-  background: var(--active-bg);
+body:not(.disable-active-line-highlight) {
+  & .cm-active {
+    background: var(--active-bg);
 
-  &.cm-gutterElement {
-    color: var(--color-accent);
+    &.cm-gutterElement {
+      color: var(--color-accent);
+    }
   }
 }
 
