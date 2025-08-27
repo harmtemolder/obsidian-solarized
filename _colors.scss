@@ -44,23 +44,22 @@ $accent: "orange";
   --accent-l: #{lightness(rgb(map.get($accents, $accent)))};
 }
 
+/* Settings for the Style Settings plugin. Leave in _colors.scss because
+it relies on the $tones and $colors maps. */
+
 /*! @settings
 name: Solarized Theme Settings
 id: solarized-theme-settings
 settings:
-  - id: active-line-highlight
-    title: Highlight active line
-    description: Adds active-line-highlight to the body element
+  - id: disable-active-line-highlight
+    title: Disable active line highlight
+    description: "By default Solarized highlights the active line. This setting lets you disable that behavior."
     type: class-toggle
-    default: True
-  - id: colors
-    title: Colors
-    type: heading
-    level: 2
+    default: false
   - id: tones
     title: Base Tones
     type: heading
-    level: 3
+    level: 2
     collapsed: true
   - id: base03
     title: base03
@@ -106,7 +105,7 @@ settings:
     description: "NB This does not override Obsidian's built-in accent color (see Appearance > Accent color)"
     title: Accent Colors
     type: heading
-    level: 3
+    level: 2
     collapsed: true
   - id: color-yellow
     title: yellow

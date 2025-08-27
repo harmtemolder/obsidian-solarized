@@ -42,7 +42,7 @@ Find this theme in the Obsidian's community themes browser under Settings > Appe
 
 ## How to develop
 
-Make changes in the `scss` files and compile `theme.scss` into `theme.css` using something like [dart-sass](https://sass-lang.com/dart-sass/):
+Make changes in the `scss` files (not the `theme.css` file) and compile `theme.scss` into `theme.css` using something like [dart-sass](https://sass-lang.com/dart-sass/):
 
 ```sh
 sass theme.scss theme.css

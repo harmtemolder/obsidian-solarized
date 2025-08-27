@@ -107,10 +107,10 @@
 }
 
 /* Highlight current line */
-body.active-line-highlight {
+body:not(.disable-active-line-highlight) {
   & .cm-active {
     background: var(--active-bg);
-  
+
     &.cm-gutterElement {
       color: var(--color-accent);
     }
