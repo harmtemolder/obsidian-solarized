@@ -1,6 +1,6 @@
 # Solarized for Obsidian
 
-> Precision colors for machines and people
+> ☯️ Precision colors for machines and people
 
 This is a recolor for [Obsidian](https://obsidian.md/) based on [Ethan Schoonover's Solarized color scheme](https://ethanschoonover.com/solarized/). Works as of Obsidian v1.0.0[^1].
 

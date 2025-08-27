@@ -7,6 +7,16 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## Unreleased
 
+## [1.1.5] - 2025-08-27
+
+### Fixed
+
+- [Fix Deprecation Warning \[color-functions\] #44](https://github.com/harmtemolder/obsidian-solarized/pull/44)
+
+### Added
+
+- Add the option to disable highlighting the active line with the [Style Settings plugin](https://github.com/mgmeyers/obsidian-style-settings) ([#45](https://github.com/harmtemolder/obsidian-solarized/pull/45))
+
 ## [1.1.4] - 2025-06-26
 
 ### Fixed
@@ -41,13 +51,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Added
 
-- Add support for [style settings plugin](https://github.com/mgmeyers/obsidian-style-settings)
+- Add support for the [Style Settings plugin](https://github.com/mgmeyers/obsidian-style-settings)
 
 ## [1.1.0] - 2024-11-01
 
 ### Added
 
-- Add support for [vimrc support plugin](https://github.com/esm7/obsidian-vimrc-support)
+- Add support for [Vimrc Support plugin](https://github.com/esm7/obsidian-vimrc-support)
 
 ### Changed
 
